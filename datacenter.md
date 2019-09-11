@@ -5,8 +5,12 @@
 * <https://www.facebook.com/notes/forest-city-data-center/study-finds-facebook-data-centers-have-contributed-nearly-6-billion-in-gdp-suppo/2228046683887349/>
 * <https://www.rti.org/sites/default/files/facebook_data_centers_2018.pdf>
 * <https://www.datacenterknowledge.com/inside-facebooks-north-carolina-data-center>
+* <https://www.facebook.com/ForestCityDataCenter/>
 
+## E.Datacenter.3
 
+Reference
+* <http://carbonfootprint.c2es.org/>
 
 ## E.Datacenter.4
    ###EQUINIX GREEN INITIATIVES
