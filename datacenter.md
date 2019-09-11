@@ -1,6 +1,13 @@
 # Datacenter fa19-516-160
 ## E.Datacenter.2a
-   Refrences:
+   
+
+## E.Datacenter.2.b
+Forest City is home to about 7,500 residents, as well as a major campus for Facebook. 
+As a result, it has joined the ranks of rural towns that are populated by more servers than people. This is company's 
+second  data center on its North Carolina campus. 
+![](FBNC.jpg)
+Refrences:
 * <https://sustainability.fb.com/wp-content/uploads/2019/08/2018-Sustainability-Data-Disclosure.pdf>
 * <https://www.facebook.com/notes/forest-city-data-center/study-finds-facebook-data-centers-have-contributed-nearly-6-billion-in-gdp-suppo/2228046683887349/>
 * <https://www.rti.org/sites/default/files/facebook_data_centers_2018.pdf>
@@ -29,9 +36,9 @@ Reference
 *   <https://www.equinix.com/www/resources/infopapers/Green_Data_Center_Brochure_US_EN.pdf>
    
 ## E.Datacenter.5
-*Largest Solar Farms ever Built for Google to Power Its Southeast Data Centers
+* Largest Solar Farms ever Built for Google to Power Its Southeast Data Centers
 Two solar projects in Tennessee and Alabama  will supply two data centers under construction with renewable energy (solar) most hours of the day.
-
+![](GoogleSE.jpg)
 * world’s largest data center is planned for Ballangen, a small Norwegian fjord town inside the Arctic Circle, adjacent to the Lofoten Islands.
 Countries like Island are working towards using natural ways of colling data centers.
 
@@ -59,7 +66,7 @@ It can cool advanced High Performance Computers, high end storage, or simple swi
 Active rack cooling can redefine PUE and are ultra efficient, scalable and rack agnostic.
 Reference
 * <https://www.chilleddoor.com/>
-   
+  ![](ChillD.png) 
 ## E.Datacenter.7
 Pretty much what we do in our daily life has some impact on our planet. There are so many ways human adds to carbon footprint. 
 Like wise large corporations adds to carbon footprint indirectly all that is driven by human (consumer) demand. When we look at the modern computing or data driven companies they seems to be very clean apparently these companies use large amount of energy.
@@ -68,7 +75,7 @@ Article points to variety of ways we add to use of energy.
 
 * <https://www.nature.com/articles/d41586-018-06610-y>
 
-##E.Datacenter.8   
+## E.Datacenter.8   
    Facebook, Instagram, WhatsApp suffer global outage started around 9:00 PDT on 13 March 2019 and continued to affect some services until 14 March 2019. This outage impacted enterprise accounts as well.
    This outage remained for around 14 hours.
    Facebook reported this is because of server configuration changes and impacted many users.
