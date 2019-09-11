@@ -40,7 +40,8 @@ References
 * <https://www.cnbc.com/2017/08/15/worlds-largest-data-center-to-be-built-in-arctic-circle.html>
 * <https://www.datacenterknowledge.com/archives/2016/08/11/how-renewable-energy-is-changing-the-data-center-market>
 * <https://www.datacenterknowledge.com/asia-pacific/greenpeace-china-s-data-centers-track-use-more-energy-all-australia>
-* <https://www.researchgate.net/publication/270758358_Best_practice_case_studies_for_energy_efficient_IT_and_infrastructure_for_data_centres_and_server_rooms>
+* <https://www.researchgate.net/publication/270758358_Best_practice_case_studies_for_energy_efficient_IT_and_infrastruct
+ure_for_data_centres_and_server_rooms>
 * <https://lifelinedatacenters.com/data-center/green-data-centers-looking-beyond-renewable-energy-cooling-efficiencies/>
 
 
