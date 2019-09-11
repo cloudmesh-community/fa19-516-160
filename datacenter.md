@@ -24,6 +24,20 @@
     Here is the reference for more details.
    <https://www.equinix.com/www/resources/infopapers/Green_Data_Center_Brochure_US_EN.pdf>
    
+## E.Datacenter.5
+* world’s largest data center is planned for Ballangen, a small Norwegian fjord town inside the Arctic Circle, adjacent to the Lofoten Islands.
+Countries like Island are working towards using natural ways of colling data centers.
+
+* China's Greenpeace:  Data Centers on Track to Use More Energy than All of Australia. Biggest data center under construction in  Guizhou Province of China.
+There is lot of push to use renewable source of energy part of program.
+<https://e360.yale.edu/features/energy-hogs-can-huge-data-centers-be-made-more-efficient>
+<https://www.cnbc.com/2017/08/15/worlds-largest-data-center-to-be-built-in-arctic-circle.html>
+<https://www.datacenterknowledge.com/archives/2016/08/11/how-renewable-energy-is-changing-the-data-center-market>
+<https://www.datacenterknowledge.com/asia-pacific/greenpeace-china-s-data-centers-track-use-more-energy-all-australia>
+
+## E.Datacenter.6
+
+
    
     
    
