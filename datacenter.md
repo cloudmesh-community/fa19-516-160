@@ -36,8 +36,15 @@ There is lot of push to use renewable source of energy part of program.
 <https://www.datacenterknowledge.com/asia-pacific/greenpeace-china-s-data-centers-track-use-more-energy-all-australia>
 
 ## E.Datacenter.6
+###The ChilledDoor 
+( A Whole New Cooling Experience )
 
+The ChilledDoor® Rack Cooling System not only remove 100% of the heat from server rack, it is a way to change the dynamic of how data center is cooled.
+It uses advanced technology “Active” rear door heat exchanger technology, by this cooling system becomes a dynamic entity, reacting to minute by minute changes in compute loads of up to 75kW. 
+It can cool advanced High Performance Computers, high end storage, or simple switchgear, the ChilledDoor works to keep entire computing environment “heat neutral”.
+Active rack cooling can redefine PUE and are ultra efficient, scalable and rack agnostic.
 
+<https://www.chilleddoor.com/>
    
     
    
