@@ -47,7 +47,10 @@ Active rack cooling can redefine PUE and are ultra efficient, scalable and rack 
 <https://www.chilleddoor.com/>
    
 ## E.Datacenter.7
-
+Pretty much what we do in our daily life has some impact on our planet. There are so many ways human adds to carbon footprint. 
+Like wise large corporations adds to carbon footprint indirectly all that is driven by human (consumer) demand. When we look at the modern computing or data driven companies they seems to be very clean apparently these companies use large amount of energy.
+Typically energy used by their data centers. Every time we click a link to search, upload a picture or watch a video we use energy starting form network, electronic device and data centers.
+Article points to variety of ways we add to use of energy. 
 
 ##E.Datacenter.8   
    
