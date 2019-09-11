@@ -1,6 +1,6 @@
 # Datacenter fa19-516-160
 ## E.Datacenter.2a
-    ##Refrences:
+   Refrences:
 * <https://sustainability.fb.com/wp-content/uploads/2019/08/2018-Sustainability-Data-Disclosure.pdf>
 * <https://www.facebook.com/notes/forest-city-data-center/study-finds-facebook-data-centers-have-contributed-nearly-6-billion-in-gdp-suppo/2228046683887349/>
 * <https://www.rti.org/sites/default/files/facebook_data_centers_2018.pdf>
@@ -30,6 +30,7 @@ Countries like Island are working towards using natural ways of colling data cen
 
 * China's Greenpeace:  Data Centers on Track to Use More Energy than All of Australia. Biggest data center under construction in  Guizhou Province of China.
 There is lot of push to use renewable source of energy part of program.
+References
 <https://e360.yale.edu/features/energy-hogs-can-huge-data-centers-be-made-more-efficient>
 <https://www.cnbc.com/2017/08/15/worlds-largest-data-center-to-be-built-in-arctic-circle.html>
 <https://www.datacenterknowledge.com/archives/2016/08/11/how-renewable-energy-is-changing-the-data-center-market>
@@ -43,7 +44,7 @@ The ChilledDoor® Rack Cooling System not only remove 100% of the heat from serv
 It uses advanced technology “Active” rear door heat exchanger technology, by this cooling system becomes a dynamic entity, reacting to minute by minute changes in compute loads of up to 75kW. 
 It can cool advanced High Performance Computers, high end storage, or simple switchgear, the ChilledDoor works to keep entire computing environment “heat neutral”.
 Active rack cooling can redefine PUE and are ultra efficient, scalable and rack agnostic.
-
+Reference
 <https://www.chilleddoor.com/>
    
 ## E.Datacenter.7
@@ -52,5 +53,13 @@ Like wise large corporations adds to carbon footprint indirectly all that is dri
 Typically energy used by their data centers. Every time we click a link to search, upload a picture or watch a video we use energy starting form network, electronic device and data centers.
 Article points to variety of ways we add to use of energy. 
 
+<https://www.nature.com/articles/d41586-018-06610-y>
+
 ##E.Datacenter.8   
+   Facebook, Instagram, WhatsApp suffer global outage started around 9:00 PDT on 13 March 2019 and continued to affect some services until 14 March 2019. This outage impacted enterprise accounts as well.
+   This outage remained for around 14 hours.
+   
+   Reference
+   <https://www.datacenterdynamics.com/news/facebook-instagram-whatsapp-suffer-global-outage/>
+   
    
