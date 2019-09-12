@@ -1,4 +1,9 @@
 # Datacenter fa19-516-160
+
+:o2: please use proper markdown
+
+:o2: all images must be in an images directory, see other students examples
+
 ## E.Datacenter.2a
    
 
