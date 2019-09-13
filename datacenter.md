@@ -46,7 +46,7 @@ second  data center on its North Carolina campus.
    * Water-side economizers
    And more.
     
-    SG3 (Singapore), one of newest sites, runs on solar energy powers
+    SG3 (Singapore), one of newest sites, runs on solar energy power
     
     
 ![Equinix Data Center SG3](images/Equinix%20Data%20Center%20SG3.png)    
