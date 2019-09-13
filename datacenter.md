@@ -1,4 +1,12 @@
 # Datacenter fa19-516-160
+
++
+:o2: please use proper markdown
+
+:o2: all images must be in an images directory, see other students examples
+
++
+
 ## E.Datacenter.2.a: Table for Carbon footprint of data centers
 
 ## E.Datacenter.2.b: Carbon footprint of data centers
@@ -10,7 +18,7 @@
 Forest City is home to about 7,500 residents, as well as a major campus for Facebook. 
 As a result, it has joined the ranks of rural towns that are populated by more servers than people. This is company's 
 second  data center on its North Carolina campus.
-![Facebook Forest City Datacenter](images/FBNC.jpg)
+![Facebook Forest City Datacenter](images/FBNC.png)
 
 
 ### References
@@ -26,7 +34,7 @@ second  data center on its North Carolina campus.
 *  <http://carbonfootprint.c2es.org/>
 
 ## E.Datacenter.4
-   ###EQUINIX GREEN INITIATIVES
+   ### EQUINIX GREEN INITIATIVES
     Equinix was founded in 1998 with the goal to become a leader in data centers, they pioneer in green data centers
     They constantly work on their green technology. They always work on design power usage effectiveness (PUE).
     Following are few examples of site-specific solutions  incorporated by them:
@@ -44,13 +52,13 @@ second  data center on its North Carolina campus.
 ## E.Datacenter.5
 * Largest Solar Farms ever Built for Google to Power Its Southeast Data Centers
 Two solar projects in Tennessee and Alabama  will supply two data centers under construction with renewable energy (solar) most hours of the day.
-![Google South East USA DataCenter](images/GoogleSE.jpg)
+![Google South East USA DataCenter](images/GoogleSE.png)
 * world’s largest data center is planned for Ballangen, a small Norwegian fjord town inside the Arctic Circle, adjacent to the Lofoten Islands.
 Countries like Island are working towards using natural ways of colling data centers.
 
 * China's Greenpeace:  Data Centers on Track to Use More Energy than All of Australia. Biggest data center under construction in  Guizhou Province of China.
 There is lot of push to use renewable source of energy part of program.
-References
+### References
 
 *  <https://www.datacenterknowledge.com/energy/largest-solar-farms-ever-built-google-power-its-southeast-data-centers>
 *  <https://e360.yale.edu/features/energy-hogs-can-huge-data-centers-be-made-more-efficient>
@@ -62,7 +70,7 @@ References
 
 
 ## E.Datacenter.6
-###The ChilledDoor 
+### The ChilledDoor 
 ( A Whole New Cooling Experience )
 
 The ChilledDoor® Rack Cooling System not only remove 100% of the heat from server rack, it is a way to change the dynamic of how data center is cooled.
@@ -88,7 +96,7 @@ Article points to variety of ways we add to use of energy.
    Facebook reported this is because of server configuration changes and impacted many users.
    These outages had also affected Facebook's ad-buying system, many brand marketers had tweeted to report issues. 
    
-### Reference
+### References
 *  <https://www.datacenterdynamics.com/news/facebook-instagram-whatsapp-suffer-global-outage/>
 *  <https://downdetector.com/status/facebook/map/>
 
