@@ -18,6 +18,7 @@
 Forest City is home to about 7,500 residents, as well as a major campus for Facebook. 
 As a result, it has joined the ranks of rural towns that are populated by more servers than people. This is company's 
 second  data center on its North Carolina campus.
+
 ![Facebook Forest City Datacenter](images/FBNC.png)
 
 
@@ -35,9 +36,10 @@ second  data center on its North Carolina campus.
 
 ## E.Datacenter.4
    ### EQUINIX GREEN INITIATIVES
-    Equinix was founded in 1998 with the goal to become a leader in data centers, they pioneer in green data centers
-    They constantly work on their green technology. They always work on design power usage effectiveness (PUE).
-    Following are few examples of site-specific solutions  incorporated by them:
+   Equinix was founded in 1998 with the goal to become a leader in data centers, they pioneer in green data centers
+   They constantly work on their green technology. They always work on design power usage effectiveness (PUE).
+   Following are few examples of site-specific solutions  incorporated by them:
+   
    * Rooftop solar panels
    * Deep Lake Water Cooling (DLWC)
    * Green rooftops (plants and vegetation)
@@ -46,13 +48,19 @@ second  data center on its North Carolina campus.
     
     SG3 (Singapore), one of newest sites, runs on solar energy powers
     
-    Here is the reference for more details.
+    
+![Equinix Data Center SG3](images/Equinix%20Data%20Center%20SG3.png)    
+## Here is the reference for more details :
 *   <https://www.equinix.com/www/resources/infopapers/Green_Data_Center_Brochure_US_EN.pdf>
+*   <https://www.equinix.com/locations/asia-colocation/singapore-colocation/singapore-data-center/sg3/>
+
    
 ## E.Datacenter.5
 * Largest Solar Farms ever Built for Google to Power Its Southeast Data Centers
 Two solar projects in Tennessee and Alabama  will supply two data centers under construction with renewable energy (solar) most hours of the day.
+
 ![Google South East USA DataCenter](images/GoogleSE.png)
+
 * world’s largest data center is planned for Ballangen, a small Norwegian fjord town inside the Arctic Circle, adjacent to the Lofoten Islands.
 Countries like Island are working towards using natural ways of colling data centers.
 
@@ -78,9 +86,12 @@ It uses advanced technology “Active” rear door heat exchanger technology, by
 It can cool advanced High Performance Computers, high end storage, or simple switchgear, the ChilledDoor works to keep entire computing environment “heat neutral”.
 Active rack cooling can redefine PUE and are ultra efficient, scalable and rack agnostic.
 
+
+![ChilledDoor](images/ChillD.png)
+
 ### Reference
 *  <https://www.chilleddoor.com/>
-![ChilledDoor](images/ChillD.png)
+
 ## E.Datacenter.7
 Pretty much what we do in our daily life has some impact on our planet. There are so many ways human adds to carbon footprint. 
 Like wise large corporations adds to carbon footprint indirectly all that is driven by human (consumer) demand. When we look at the modern computing or data driven companies they seems to be very clean apparently these companies use large amount of energy.
