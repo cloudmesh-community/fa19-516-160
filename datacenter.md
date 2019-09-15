@@ -13,7 +13,7 @@
 * Data center   : Forest City
 * Organization  : Facebook
 * Location      : Forest City, NC
-* Year Build    : 2012
+* Year Build    : 2012.
 
 Forest City is home to about 7,500 residents, as well as a major campus for Facebook. 
 As a result, it has joined the ranks of rural towns that are populated by more servers than people. This is company's 
