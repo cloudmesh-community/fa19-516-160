@@ -1,0 +1,396 @@
+(base) Shreyanss-MacBook-Pro:cm shreyansjain$ pwd
+/Users/shreyansjain/desktop/cm
+(base) Shreyanss-MacBook-Pro:cm shreyansjain$ pip install cloudmesh-installer
+Requirement already satisfied: cloudmesh-installer in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (4.2.5)
+Requirement already satisfied: tabulate in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-installer) (0.8.3)
+Requirement already satisfied: colorama in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-installer) (0.3.9)
+Requirement already satisfied: oyaml in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-installer) (0.9)
+Requirement already satisfied: requests in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-installer) (2.19.1)
+Requirement already satisfied: python-hostlist in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-installer) (1.18)
+Requirement already satisfied: docopt in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-installer) (0.6.2)
+Requirement already satisfied: pyyaml in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from oyaml->cloudmesh-installer) (3.13)
+Requirement already satisfied: chardet<3.1.0,>=3.0.2 in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from requests->cloudmesh-installer) (3.0.4)
+Requirement already satisfied: urllib3<1.24,>=1.21.1 in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from requests->cloudmesh-installer) (1.23)
+Requirement already satisfied: idna<2.8,>=2.5 in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from requests->cloudmesh-installer) (2.7)
+Requirement already satisfied: certifi>=2017.4.17 in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from requests->cloudmesh-installer) (2019.6.16)
+(base) Shreyanss-MacBook-Pro:cm shreyansjain$ cloudmesh-installer bundles
+cms:
+        cloudmesh-common cloudmesh-cmd5 cloudmesh-sys cloudmesh-configuration
+        cloudmesh-manual
+cloud:
+        cloudmesh-common cloudmesh-cmd5 cloudmesh-sys cloudmesh-configuration
+        cloudmesh-cloud cloudmesh-inventory cloudmesh-manual
+iu:
+        cloudmesh-common cloudmesh-cmd5 cloudmesh-sys cloudmesh-configuration
+        cloudmesh-cloud cloudmesh-inventory cloudmesh-manual cloudmesh-iu
+batch:
+        cloudmesh-common cloudmesh-cmd5 cloudmesh-sys cloudmesh-configuration
+        cloudmesh-cloud cloudmesh-inventory cloudmesh-batch cloudmesh-manual
+storage:
+        cloudmesh-common cloudmesh-cmd5 cloudmesh-sys cloudmesh-configuration
+        cloudmesh-cloud cloudmesh-storage cloudmesh-inventory cloudmesh-box
+        cloudmesh-manual
+source:
+        cloudmesh-common cloudmesh-cmd5 cloudmesh-sys cloudmesh-configuration
+        cloudmesh-cloud cloudmesh-storage cloudmesh-inventory cloudmesh-emr
+        cloudmesh-comet cloudmesh-openapi cloudmesh-nn cloudmesh-nist
+        cloudmesh-conda cloudmesh-azure cloudmesh-aws cloudmesh-box
+        cloudmesh-redshift cloudmesh-manual
+web:
+        about get cloudmesh-github.io cloudmesh-manual
+community:
+        cloudmesh-community.github.io
+flow:
+        cloudmesh-common cloudmesh-cmd5 cloudmesh-sys cloudmesh-configuration
+        cloudmesh-cloud cloudmesh-inventory cloudmesh-flow cloudmesh-manual
+emr:
+        cloudmesh-common cloudmesh-cmd5 cloudmesh-sys cloudmesh-configuration
+        cloudmesh-cloud cloudmesh-inventory cloudmesh-emr cloudmesh-manual
+conda:
+        cloudmesh-conda
+516:
+        fa19-516-140 fa19-516-141 fa19-516-142 fa19-516-143 fa19-516-144
+        fa19-516-145 fa19-516-146 fa19-516-147 fa19-516-148 fa19-516-149
+        fa19-516-150 fa19-516-151 fa19-516-152 fa19-516-153 fa19-516-154
+        fa19-516-155 fa19-516-156 fa19-516-157 fa19-516-158 fa19-516-159
+        fa19-516-160 fa19-516-161 fa19-516-162 fa19-516-163 fa19-516-164
+        fa19-516-165 fa19-516-166 fa19-516-167 fa19-516-168 fa19-516-169
+        fa19-516-170 fa19-516-171
+523:
+        fa19-523-180 fa19-523-181 fa19-523-182 fa19-523-183 fa19-523-184
+        fa19-523-185 fa19-523-186 fa19-523-187 fa19-523-188 fa19-523-189
+        fa19-523-190 fa19-523-191 fa19-523-192 fa19-523-193 fa19-523-194
+        fa19-523-195 fa19-523-196 fa19-523-198 fa19-523-199 fa19-523-200
+        fa19-523-201 fa19-523-202 fa19-523-203 fa19-523-204 fa19-523-205
+        fa19-523-206 fa19-523-207 fa19-523-208 fa19-523-209 fa19-523-210
+        fa19-523-211 fa19-523-212
+spring19:
+        fa18-516-22 fa18-516-26 fa18-516-29 hid-sample hid-sp18-407
+        hid-sp18-512 hid-sp18-519 hid-sp18-520 hid-sp18-522 hid-sp18-523
+        hid-sp18-602 hid-sp18-701 hid-sp18-704 hid-sp18-709 hid-sp18-710
+        sp19-222-100 sp19-222-101 sp19-222-102 sp19-222-89 sp19-222-90
+        sp19-222-91 sp19-222-92 sp19-222-93 sp19-222-94 sp19-222-96
+        sp19-222-97 sp19-222-98 sp19-222-99 sp19-516-121 sp19-516-122
+        sp19-516-123 sp19-516-124 sp19-516-125 sp19-516-127 sp19-516-128
+        sp19-516-129 sp19-516-130 sp19-516-131 sp19-516-132 sp19-516-133
+        sp19-516-134 sp19-516-135 sp19-516-136 sp19-516-137 sp19-516-138
+        sp19-516-139 sp19-616-111 sp19-616-112
+all:
+        fa19-516-160
+cloudmesh:
+
+(base) Shreyanss-MacBook-Pro:cm shreyansjain$ cloudmesh-installer git clone cms
+clone -> cloudmesh-common
+git clone https://github.com/cloudmesh/cloudmesh-common.git
+         Cloning into 'cloudmesh-common'...
+
+clone -> cloudmesh-cmd5
+git clone https://github.com/cloudmesh/cloudmesh-cmd5.git
+         Cloning into 'cloudmesh-cmd5'...
+
+clone -> cloudmesh-sys
+git clone https://github.com/cloudmesh/cloudmesh-sys.git
+         Cloning into 'cloudmesh-sys'...
+
+clone -> cloudmesh-configuration
+git clone https://github.com/cloudmesh/cloudmesh-configuration.git
+         Cloning into 'cloudmesh-configuration'...
+
+clone -> cloudmesh-manual
+git clone https://github.com/cloudmesh/cloudmesh-manual.git
+         Cloning into 'cloudmesh-manual'...
+
+(base) Shreyanss-MacBook-Pro:cm shreyansjain$ cloudmesh-installer install cms -e
+install -> cloudmesh-common
+Obtaining file:///Users/shreyansjain/Desktop/cm/cloudmesh-common
+Requirement already satisfied: python-hostlist in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common==4.2.12) (1.18)
+Requirement already satisfied: simplejson in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common==4.2.12) (3.16.0)
+Requirement already satisfied: oyaml in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common==4.2.12) (0.9)
+Requirement already satisfied: colorama in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common==4.2.12) (0.3.9)
+Requirement already satisfied: psutil in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common==4.2.12) (5.4.7)
+Requirement already satisfied: pathlib in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common==4.2.12) (1.0.1)
+Requirement already satisfied: pathlib2 in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common==4.2.12) (2.3.2)
+Requirement already satisfied: future in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common==4.2.12) (0.17.1)
+Requirement already satisfied: humanize in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common==4.2.12) (0.5.1)
+Requirement already satisfied: python-dateutil in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common==4.2.12) (2.7.3)
+Requirement already satisfied: pyyaml in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from oyaml->cloudmesh-common==4.2.12) (3.13)
+Requirement already satisfied: six in /Users/shreyansjain/.local/lib/python3.7/site-packages (from pathlib2->cloudmesh-common==4.2.12) (1.12.0)
+Installing collected packages: cloudmesh-common
+  Found existing installation: cloudmesh-common 4.2.12
+    Uninstalling cloudmesh-common-4.2.12:
+      Successfully uninstalled cloudmesh-common-4.2.12
+  Running setup.py develop for cloudmesh-common
+    ERROR: Command errored out with exit status 1:
+     command: /Users/shreyansjain/anaconda3/bin/python -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/Users/shreyansjain/Desktop/cm/cloudmesh-common/setup.py'"'"'; __file__='"'"'/Users/shreyansjain/Desktop/cm/cloudmesh-common/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' develop --no-deps
+         cwd: /Users/shreyansjain/Desktop/cm/cloudmesh-common/
+    Complete output (18 lines):
+    running develop
+    running egg_info
+    writing cloudmesh_common.egg-info/PKG-INFO
+    writing dependency_links to cloudmesh_common.egg-info/dependency_links.txt
+    writing namespace_packages to cloudmesh_common.egg-info/namespace_packages.txt
+    writing requirements to cloudmesh_common.egg-info/requires.txt
+    writing top-level names to cloudmesh_common.egg-info/top_level.txt
+    reading manifest file 'cloudmesh_common.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    warning: no files found matching 'cloudmesh/common/etc/cloudmesh.yaml'
+    warning: no previously-included files found matching '.gitignore'
+    warning: no previously-included files found matching '.gitreview'
+    writing manifest file 'cloudmesh_common.egg-info/SOURCES.txt'
+    running build_ext
+    Installing /Users/shreyansjain/anaconda3/lib/python3.7/site-packages/cloudmesh-common-nspkg.pth
+    Creating /Users/shreyansjain/anaconda3/lib/python3.7/site-packages/cloudmesh-common.egg-link (link to .)
+    Adding cloudmesh-common 4.2.12 to easy-install.pth file
+    error: [Errno 13] Permission denied: '/Users/shreyansjain/anaconda3/lib/python3.7/site-packages/easy-install.pth'
+    ----------------------------------------
+  Rolling back uninstall of cloudmesh-common
+  Moving to /Users/shreyansjain/anaconda3/lib/python3.7/site-packages/cloudmesh/common/
+   from /Users/shreyansjain/anaconda3/lib/python3.7/site-packages/cloudmesh/~ommon
+  Moving to /Users/shreyansjain/anaconda3/lib/python3.7/site-packages/cloudmesh/db/
+   from /Users/shreyansjain/anaconda3/lib/python3.7/site-packages/cloudmesh/~b
+  Moving to /Users/shreyansjain/anaconda3/lib/python3.7/site-packages/cloudmesh_common-4.2.12-py3.7-nspkg.pth
+   from /private/var/folders/9n/1yjv9fvj67n9ftb6t2gy7ljm0000gn/T/pip-uninstall-szccv9na/cloudmesh_common-4.2.12-py3.7-nspkg.pth
+  Moving to /Users/shreyansjain/anaconda3/lib/python3.7/site-packages/cloudmesh_common-4.2.12.dist-info/
+   from /Users/shreyansjain/anaconda3/lib/python3.7/site-packages/~loudmesh_common-4.2.12.dist-info
+ERROR: Command errored out with exit status 1: /Users/shreyansjain/anaconda3/bin/python -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/Users/shreyansjain/Desktop/cm/cloudmesh-common/setup.py'"'"'; __file__='"'"'/Users/shreyansjain/Desktop/cm/cloudmesh-common/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' develop --no-deps Check the logs for full command output.
+install -> cloudmesh-cmd5
+Obtaining file:///Users/shreyansjain/Desktop/cm/cloudmesh-cmd5
+Requirement already satisfied: pyyaml in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-cmd5==4.2.1) (3.13)
+Requirement already satisfied: docopt in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-cmd5==4.2.1) (0.6.2)
+Requirement already satisfied: requests in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-cmd5==4.2.1) (2.19.1)
+Requirement already satisfied: cloudmesh-common in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-cmd5==4.2.1) (4.2.12)
+Requirement already satisfied: chardet<3.1.0,>=3.0.2 in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from requests->cloudmesh-cmd5==4.2.1) (3.0.4)
+Requirement already satisfied: certifi>=2017.4.17 in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from requests->cloudmesh-cmd5==4.2.1) (2019.6.16)
+Requirement already satisfied: idna<2.8,>=2.5 in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from requests->cloudmesh-cmd5==4.2.1) (2.7)
+Requirement already satisfied: urllib3<1.24,>=1.21.1 in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from requests->cloudmesh-cmd5==4.2.1) (1.23)
+Requirement already satisfied: python-hostlist in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common->cloudmesh-cmd5==4.2.1) (1.18)
+Requirement already satisfied: python-dateutil in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common->cloudmesh-cmd5==4.2.1) (2.7.3)
+Requirement already satisfied: humanize in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common->cloudmesh-cmd5==4.2.1) (0.5.1)
+Requirement already satisfied: colorama in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common->cloudmesh-cmd5==4.2.1) (0.3.9)
+Requirement already satisfied: oyaml in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common->cloudmesh-cmd5==4.2.1) (0.9)
+Requirement already satisfied: psutil in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common->cloudmesh-cmd5==4.2.1) (5.4.7)
+Requirement already satisfied: future in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common->cloudmesh-cmd5==4.2.1) (0.17.1)
+Requirement already satisfied: pathlib in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common->cloudmesh-cmd5==4.2.1) (1.0.1)
+Requirement already satisfied: pathlib2 in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common->cloudmesh-cmd5==4.2.1) (2.3.2)
+Requirement already satisfied: simplejson in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common->cloudmesh-cmd5==4.2.1) (3.16.0)
+Requirement already satisfied: six>=1.5 in /Users/shreyansjain/.local/lib/python3.7/site-packages (from python-dateutil->cloudmesh-common->cloudmesh-cmd5==4.2.1) (1.12.0)
+Installing collected packages: cloudmesh-cmd5
+  Found existing installation: cloudmesh-cmd5 4.2.1
+    Uninstalling cloudmesh-cmd5-4.2.1:
+      Successfully uninstalled cloudmesh-cmd5-4.2.1
+  Running setup.py develop for cloudmesh-cmd5
+    ERROR: Command errored out with exit status 1:
+     command: /Users/shreyansjain/anaconda3/bin/python -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/Users/shreyansjain/Desktop/cm/cloudmesh-cmd5/setup.py'"'"'; __file__='"'"'/Users/shreyansjain/Desktop/cm/cloudmesh-cmd5/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' develop --no-deps
+         cwd: /Users/shreyansjain/Desktop/cm/cloudmesh-cmd5/
+    Complete output (15 lines):
+    running develop
+    running egg_info
+    writing cloudmesh_cmd5.egg-info/PKG-INFO
+    writing dependency_links to cloudmesh_cmd5.egg-info/dependency_links.txt
+    writing entry points to cloudmesh_cmd5.egg-info/entry_points.txt
+    writing namespace_packages to cloudmesh_cmd5.egg-info/namespace_packages.txt
+    writing requirements to cloudmesh_cmd5.egg-info/requires.txt
+    writing top-level names to cloudmesh_cmd5.egg-info/top_level.txt
+    reading manifest file 'cloudmesh_cmd5.egg-info/SOURCES.txt'
+    writing manifest file 'cloudmesh_cmd5.egg-info/SOURCES.txt'
+    running build_ext
+    Installing /Users/shreyansjain/anaconda3/lib/python3.7/site-packages/cloudmesh-cmd5-nspkg.pth
+    Creating /Users/shreyansjain/anaconda3/lib/python3.7/site-packages/cloudmesh-cmd5.egg-link (link to .)
+    Adding cloudmesh-cmd5 4.2.1 to easy-install.pth file
+    error: [Errno 13] Permission denied: '/Users/shreyansjain/anaconda3/lib/python3.7/site-packages/easy-install.pth'
+    ----------------------------------------
+  Rolling back uninstall of cloudmesh-cmd5
+  Moving to /Users/shreyansjain/anaconda3/bin/cms
+   from /private/var/folders/9n/1yjv9fvj67n9ftb6t2gy7ljm0000gn/T/pip-uninstall-1h54q2e6/cms
+  Moving to /Users/shreyansjain/anaconda3/lib/python3.7/site-packages/cloudmesh/cmd5/
+   from /Users/shreyansjain/anaconda3/lib/python3.7/site-packages/cloudmesh/~md5
+  Moving to /Users/shreyansjain/anaconda3/lib/python3.7/site-packages/cloudmesh/default/
+   from /Users/shreyansjain/anaconda3/lib/python3.7/site-packages/cloudmesh/~efault
+  Moving to /Users/shreyansjain/anaconda3/lib/python3.7/site-packages/cloudmesh/man/
+   from /Users/shreyansjain/anaconda3/lib/python3.7/site-packages/cloudmesh/~an
+  Moving to /Users/shreyansjain/anaconda3/lib/python3.7/site-packages/cloudmesh/set/
+   from /Users/shreyansjain/anaconda3/lib/python3.7/site-packages/cloudmesh/~et
+  Moving to /Users/shreyansjain/anaconda3/lib/python3.7/site-packages/cloudmesh/shell/
+   from /Users/shreyansjain/anaconda3/lib/python3.7/site-packages/cloudmesh/~hell
+  Moving to /Users/shreyansjain/anaconda3/lib/python3.7/site-packages/cloudmesh/terminal/
+   from /Users/shreyansjain/anaconda3/lib/python3.7/site-packages/cloudmesh/~erminal
+  Moving to /Users/shreyansjain/anaconda3/lib/python3.7/site-packages/cloudmesh/var/
+   from /Users/shreyansjain/anaconda3/lib/python3.7/site-packages/cloudmesh/~ar
+  Moving to /Users/shreyansjain/anaconda3/lib/python3.7/site-packages/cloudmesh_cmd5-4.2.1-py3.7-nspkg.pth
+   from /private/var/folders/9n/1yjv9fvj67n9ftb6t2gy7ljm0000gn/T/pip-uninstall-t5r7db26/cloudmesh_cmd5-4.2.1-py3.7-nspkg.pth
+  Moving to /Users/shreyansjain/anaconda3/lib/python3.7/site-packages/cloudmesh_cmd5-4.2.1.dist-info/
+   from /Users/shreyansjain/anaconda3/lib/python3.7/site-packages/~loudmesh_cmd5-4.2.1.dist-info
+ERROR: Command errored out with exit status 1: /Users/shreyansjain/anaconda3/bin/python -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/Users/shreyansjain/Desktop/cm/cloudmesh-cmd5/setup.py'"'"'; __file__='"'"'/Users/shreyansjain/Desktop/cm/cloudmesh-cmd5/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' develop --no-deps Check the logs for full command output.
+install -> cloudmesh-sys
+Obtaining file:///Users/shreyansjain/Desktop/cm/cloudmesh-sys
+Requirement already satisfied: wheel in /Users/shreyansjain/.local/lib/python3.7/site-packages (from cloudmesh-sys==4.1.3) (0.32.3)
+Requirement already satisfied: twine in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-sys==4.1.3) (1.14.0)
+Requirement already satisfied: cloudmesh-common in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-sys==4.1.3) (4.2.12)
+Requirement already satisfied: cloudmesh-cmd5 in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-sys==4.1.3) (4.2.1)
+Requirement already satisfied: setuptools>=0.7.0 in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from twine->cloudmesh-sys==4.1.3) (40.2.0)
+Requirement already satisfied: requests-toolbelt!=0.9.0,>=0.8.0 in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from twine->cloudmesh-sys==4.1.3) (0.9.1)
+Requirement already satisfied: readme-renderer>=21.0 in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from twine->cloudmesh-sys==4.1.3) (24.0)
+Requirement already satisfied: tqdm>=4.14 in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from twine->cloudmesh-sys==4.1.3) (4.26.0)
+Requirement already satisfied: pkginfo>=1.4.2 in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from twine->cloudmesh-sys==4.1.3) (1.4.2)
+Requirement already satisfied: requests!=2.15,!=2.16,>=2.5.0 in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from twine->cloudmesh-sys==4.1.3) (2.19.1)
+Requirement already satisfied: oyaml in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common->cloudmesh-sys==4.1.3) (0.9)
+Requirement already satisfied: colorama in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common->cloudmesh-sys==4.1.3) (0.3.9)
+Requirement already satisfied: pathlib2 in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common->cloudmesh-sys==4.1.3) (2.3.2)
+Requirement already satisfied: psutil in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common->cloudmesh-sys==4.1.3) (5.4.7)
+Requirement already satisfied: humanize in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common->cloudmesh-sys==4.1.3) (0.5.1)
+Requirement already satisfied: python-dateutil in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common->cloudmesh-sys==4.1.3) (2.7.3)
+Requirement already satisfied: future in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common->cloudmesh-sys==4.1.3) (0.17.1)
+Requirement already satisfied: simplejson in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common->cloudmesh-sys==4.1.3) (3.16.0)
+Requirement already satisfied: pathlib in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common->cloudmesh-sys==4.1.3) (1.0.1)
+Requirement already satisfied: python-hostlist in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common->cloudmesh-sys==4.1.3) (1.18)
+Requirement already satisfied: docopt in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-cmd5->cloudmesh-sys==4.1.3) (0.6.2)
+Requirement already satisfied: pyyaml in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-cmd5->cloudmesh-sys==4.1.3) (3.13)
+Requirement already satisfied: Pygments in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from readme-renderer>=21.0->twine->cloudmesh-sys==4.1.3) (2.2.0)
+Requirement already satisfied: docutils>=0.13.1 in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from readme-renderer>=21.0->twine->cloudmesh-sys==4.1.3) (0.14)
+Requirement already satisfied: bleach>=2.1.0 in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from readme-renderer>=21.0->twine->cloudmesh-sys==4.1.3) (2.1.4)
+Requirement already satisfied: six in /Users/shreyansjain/.local/lib/python3.7/site-packages (from readme-renderer>=21.0->twine->cloudmesh-sys==4.1.3) (1.12.0)
+Requirement already satisfied: urllib3<1.24,>=1.21.1 in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from requests!=2.15,!=2.16,>=2.5.0->twine->cloudmesh-sys==4.1.3) (1.23)
+Requirement already satisfied: idna<2.8,>=2.5 in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from requests!=2.15,!=2.16,>=2.5.0->twine->cloudmesh-sys==4.1.3) (2.7)
+Requirement already satisfied: certifi>=2017.4.17 in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from requests!=2.15,!=2.16,>=2.5.0->twine->cloudmesh-sys==4.1.3) (2019.6.16)
+Requirement already satisfied: chardet<3.1.0,>=3.0.2 in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from requests!=2.15,!=2.16,>=2.5.0->twine->cloudmesh-sys==4.1.3) (3.0.4)
+Requirement already satisfied: html5lib!=1.0b1,!=1.0b2,!=1.0b3,!=1.0b4,!=1.0b5,!=1.0b6,!=1.0b7,!=1.0b8,>=0.99999999pre in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from bleach>=2.1.0->readme-renderer>=21.0->twine->cloudmesh-sys==4.1.3) (1.0.1)
+Requirement already satisfied: webencodings in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from html5lib!=1.0b1,!=1.0b2,!=1.0b3,!=1.0b4,!=1.0b5,!=1.0b6,!=1.0b7,!=1.0b8,>=0.99999999pre->bleach>=2.1.0->readme-renderer>=21.0->twine->cloudmesh-sys==4.1.3) (0.5.1)
+Installing collected packages: cloudmesh-sys
+  Found existing installation: cloudmesh-sys 4.1.3
+    Uninstalling cloudmesh-sys-4.1.3:
+      Successfully uninstalled cloudmesh-sys-4.1.3
+  Running setup.py develop for cloudmesh-sys
+    ERROR: Command errored out with exit status 1:
+     command: /Users/shreyansjain/anaconda3/bin/python -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/Users/shreyansjain/Desktop/cm/cloudmesh-sys/setup.py'"'"'; __file__='"'"'/Users/shreyansjain/Desktop/cm/cloudmesh-sys/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' develop --no-deps
+         cwd: /Users/shreyansjain/Desktop/cm/cloudmesh-sys/
+    Complete output (14 lines):
+    running develop
+    running egg_info
+    writing cloudmesh_sys.egg-info/PKG-INFO
+    writing dependency_links to cloudmesh_sys.egg-info/dependency_links.txt
+    writing namespace_packages to cloudmesh_sys.egg-info/namespace_packages.txt
+    writing requirements to cloudmesh_sys.egg-info/requires.txt
+    writing top-level names to cloudmesh_sys.egg-info/top_level.txt
+    reading manifest file 'cloudmesh_sys.egg-info/SOURCES.txt'
+    writing manifest file 'cloudmesh_sys.egg-info/SOURCES.txt'
+    running build_ext
+    Installing /Users/shreyansjain/anaconda3/lib/python3.7/site-packages/cloudmesh-sys-nspkg.pth
+    Creating /Users/shreyansjain/anaconda3/lib/python3.7/site-packages/cloudmesh-sys.egg-link (link to .)
+    Adding cloudmesh-sys 4.1.3 to easy-install.pth file
+    error: [Errno 13] Permission denied: '/Users/shreyansjain/anaconda3/lib/python3.7/site-packages/easy-install.pth'
+    ----------------------------------------
+  Rolling back uninstall of cloudmesh-sys
+  Moving to /Users/shreyansjain/anaconda3/lib/python3.7/site-packages/cloudmesh/sys/
+   from /Users/shreyansjain/anaconda3/lib/python3.7/site-packages/cloudmesh/~ys
+  Moving to /Users/shreyansjain/anaconda3/lib/python3.7/site-packages/cloudmesh_sys-4.1.3-py3.7-nspkg.pth
+   from /private/var/folders/9n/1yjv9fvj67n9ftb6t2gy7ljm0000gn/T/pip-uninstall-81nh88z9/cloudmesh_sys-4.1.3-py3.7-nspkg.pth
+  Moving to /Users/shreyansjain/anaconda3/lib/python3.7/site-packages/cloudmesh_sys-4.1.3.dist-info/
+   from /Users/shreyansjain/anaconda3/lib/python3.7/site-packages/~loudmesh_sys-4.1.3.dist-info
+ERROR: Command errored out with exit status 1: /Users/shreyansjain/anaconda3/bin/python -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/Users/shreyansjain/Desktop/cm/cloudmesh-sys/setup.py'"'"'; __file__='"'"'/Users/shreyansjain/Desktop/cm/cloudmesh-sys/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' develop --no-deps Check the logs for full command output.
+install -> cloudmesh-configuration
+Obtaining file:///Users/shreyansjain/Desktop/cm/cloudmesh-configuration
+Requirement already satisfied: pathlib in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-configuration==4.1.6) (1.0.1)
+Requirement already satisfied: munch in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-configuration==4.1.6) (2.3.2)
+Requirement already satisfied: cloudmesh-common in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-configuration==4.1.6) (4.2.12)
+Requirement already satisfied: six in /Users/shreyansjain/.local/lib/python3.7/site-packages (from munch->cloudmesh-configuration==4.1.6) (1.12.0)
+Requirement already satisfied: python-dateutil in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common->cloudmesh-configuration==4.1.6) (2.7.3)
+Requirement already satisfied: future in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common->cloudmesh-configuration==4.1.6) (0.17.1)
+Requirement already satisfied: humanize in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common->cloudmesh-configuration==4.1.6) (0.5.1)
+Requirement already satisfied: oyaml in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common->cloudmesh-configuration==4.1.6) (0.9)
+Requirement already satisfied: psutil in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common->cloudmesh-configuration==4.1.6) (5.4.7)
+Requirement already satisfied: colorama in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common->cloudmesh-configuration==4.1.6) (0.3.9)
+Requirement already satisfied: pathlib2 in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common->cloudmesh-configuration==4.1.6) (2.3.2)
+Requirement already satisfied: simplejson in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common->cloudmesh-configuration==4.1.6) (3.16.0)
+Requirement already satisfied: python-hostlist in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common->cloudmesh-configuration==4.1.6) (1.18)
+Requirement already satisfied: pyyaml in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from oyaml->cloudmesh-common->cloudmesh-configuration==4.1.6) (3.13)
+Installing collected packages: cloudmesh-configuration
+  Found existing installation: cloudmesh-configuration 4.1.4
+    Uninstalling cloudmesh-configuration-4.1.4:
+      Successfully uninstalled cloudmesh-configuration-4.1.4
+  Running setup.py develop for cloudmesh-configuration
+    ERROR: Command errored out with exit status 1:
+     command: /Users/shreyansjain/anaconda3/bin/python -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/Users/shreyansjain/Desktop/cm/cloudmesh-configuration/setup.py'"'"'; __file__='"'"'/Users/shreyansjain/Desktop/cm/cloudmesh-configuration/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' develop --no-deps
+         cwd: /Users/shreyansjain/Desktop/cm/cloudmesh-configuration/
+    Complete output (17 lines):
+    running develop
+    running egg_info
+    writing cloudmesh_configuration.egg-info/PKG-INFO
+    writing dependency_links to cloudmesh_configuration.egg-info/dependency_links.txt
+    writing namespace_packages to cloudmesh_configuration.egg-info/namespace_packages.txt
+    writing requirements to cloudmesh_configuration.egg-info/requires.txt
+    writing top-level names to cloudmesh_configuration.egg-info/top_level.txt
+    reading manifest file 'cloudmesh_configuration.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    warning: no previously-included files found matching '.gitignore'
+    warning: no previously-included files found matching '.gitreview'
+    writing manifest file 'cloudmesh_configuration.egg-info/SOURCES.txt'
+    running build_ext
+    Installing /Users/shreyansjain/anaconda3/lib/python3.7/site-packages/cloudmesh-configuration-nspkg.pth
+    Creating /Users/shreyansjain/anaconda3/lib/python3.7/site-packages/cloudmesh-configuration.egg-link (link to .)
+    Adding cloudmesh-configuration 4.1.6 to easy-install.pth file
+    error: [Errno 13] Permission denied: '/Users/shreyansjain/anaconda3/lib/python3.7/site-packages/easy-install.pth'
+    ----------------------------------------
+  Rolling back uninstall of cloudmesh-configuration
+  Moving to /Users/shreyansjain/anaconda3/lib/python3.7/site-packages/cloudmesh/configuration/
+   from /Users/shreyansjain/anaconda3/lib/python3.7/site-packages/cloudmesh/~onfiguration
+  Moving to /Users/shreyansjain/anaconda3/lib/python3.7/site-packages/cloudmesh_configuration-4.1.4-py3.7-nspkg.pth
+   from /private/var/folders/9n/1yjv9fvj67n9ftb6t2gy7ljm0000gn/T/pip-uninstall-r6d1rry9/cloudmesh_configuration-4.1.4-py3.7-nspkg.pth
+  Moving to /Users/shreyansjain/anaconda3/lib/python3.7/site-packages/cloudmesh_configuration-4.1.4.dist-info/
+   from /Users/shreyansjain/anaconda3/lib/python3.7/site-packages/~loudmesh_configuration-4.1.4.dist-info
+ERROR: Command errored out with exit status 1: /Users/shreyansjain/anaconda3/bin/python -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/Users/shreyansjain/Desktop/cm/cloudmesh-configuration/setup.py'"'"'; __file__='"'"'/Users/shreyansjain/Desktop/cm/cloudmesh-configuration/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' develop --no-deps Check the logs for full command output.
+install -> cloudmesh-manual
+Obtaining file:///Users/shreyansjain/Desktop/cm/cloudmesh-manual
+Requirement already satisfied: Pygments in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-manual==4.0.0) (2.2.0)
+Requirement already satisfied: sphinx_rtd_theme in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-manual==4.0.0) (0.4.3)
+Requirement already satisfied: recommonmark in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-manual==4.0.0) (0.6.0)
+Requirement already satisfied: cloudmesh-common in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-manual==4.0.0) (4.2.12)
+Requirement already satisfied: cloudmesh-cmd5 in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-manual==4.0.0) (4.2.1)
+Requirement already satisfied: cloudmesh-sys in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-manual==4.0.0) (4.1.3)
+Requirement already satisfied: sphinx in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from sphinx_rtd_theme->cloudmesh-manual==4.0.0) (1.7.9)
+Requirement already satisfied: docutils>=0.11 in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from recommonmark->cloudmesh-manual==4.0.0) (0.14)
+Requirement already satisfied: commonmark>=0.8.1 in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from recommonmark->cloudmesh-manual==4.0.0) (0.9.0)
+Requirement already satisfied: python-dateutil in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common->cloudmesh-manual==4.0.0) (2.7.3)
+Requirement already satisfied: simplejson in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common->cloudmesh-manual==4.0.0) (3.16.0)
+Requirement already satisfied: colorama in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common->cloudmesh-manual==4.0.0) (0.3.9)
+Requirement already satisfied: oyaml in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common->cloudmesh-manual==4.0.0) (0.9)
+Requirement already satisfied: python-hostlist in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common->cloudmesh-manual==4.0.0) (1.18)
+Requirement already satisfied: psutil in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common->cloudmesh-manual==4.0.0) (5.4.7)
+Requirement already satisfied: future in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common->cloudmesh-manual==4.0.0) (0.17.1)
+Requirement already satisfied: humanize in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common->cloudmesh-manual==4.0.0) (0.5.1)
+Requirement already satisfied: pathlib2 in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common->cloudmesh-manual==4.0.0) (2.3.2)
+Requirement already satisfied: pathlib in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-common->cloudmesh-manual==4.0.0) (1.0.1)
+Requirement already satisfied: docopt in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-cmd5->cloudmesh-manual==4.0.0) (0.6.2)
+Requirement already satisfied: pyyaml in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-cmd5->cloudmesh-manual==4.0.0) (3.13)
+Requirement already satisfied: requests in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-cmd5->cloudmesh-manual==4.0.0) (2.19.1)
+Requirement already satisfied: twine in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from cloudmesh-sys->cloudmesh-manual==4.0.0) (1.14.0)
+Requirement already satisfied: wheel in /Users/shreyansjain/.local/lib/python3.7/site-packages (from cloudmesh-sys->cloudmesh-manual==4.0.0) (0.32.3)
+Requirement already satisfied: six>=1.5 in /Users/shreyansjain/.local/lib/python3.7/site-packages (from sphinx->sphinx_rtd_theme->cloudmesh-manual==4.0.0) (1.12.0)
+Requirement already satisfied: Jinja2>=2.3 in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from sphinx->sphinx_rtd_theme->cloudmesh-manual==4.0.0) (2.10)
+Requirement already satisfied: snowballstemmer>=1.1 in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from sphinx->sphinx_rtd_theme->cloudmesh-manual==4.0.0) (1.2.1)
+Requirement already satisfied: babel!=2.0,>=1.3 in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from sphinx->sphinx_rtd_theme->cloudmesh-manual==4.0.0) (2.6.0)
+Requirement already satisfied: alabaster<0.8,>=0.7 in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from sphinx->sphinx_rtd_theme->cloudmesh-manual==4.0.0) (0.7.11)
+Requirement already satisfied: imagesize in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from sphinx->sphinx_rtd_theme->cloudmesh-manual==4.0.0) (1.1.0)
+Requirement already satisfied: setuptools in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from sphinx->sphinx_rtd_theme->cloudmesh-manual==4.0.0) (40.2.0)
+Requirement already satisfied: packaging in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from sphinx->sphinx_rtd_theme->cloudmesh-manual==4.0.0) (17.1)
+Requirement already satisfied: sphinxcontrib-websupport in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from sphinx->sphinx_rtd_theme->cloudmesh-manual==4.0.0) (1.1.0)
+Requirement already satisfied: idna<2.8,>=2.5 in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from requests->cloudmesh-cmd5->cloudmesh-manual==4.0.0) (2.7)
+Requirement already satisfied: chardet<3.1.0,>=3.0.2 in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from requests->cloudmesh-cmd5->cloudmesh-manual==4.0.0) (3.0.4)
+Requirement already satisfied: urllib3<1.24,>=1.21.1 in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from requests->cloudmesh-cmd5->cloudmesh-manual==4.0.0) (1.23)
+Requirement already satisfied: certifi>=2017.4.17 in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from requests->cloudmesh-cmd5->cloudmesh-manual==4.0.0) (2019.6.16)
+Requirement already satisfied: tqdm>=4.14 in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from twine->cloudmesh-sys->cloudmesh-manual==4.0.0) (4.26.0)
+Requirement already satisfied: pkginfo>=1.4.2 in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from twine->cloudmesh-sys->cloudmesh-manual==4.0.0) (1.4.2)
+Requirement already satisfied: requests-toolbelt!=0.9.0,>=0.8.0 in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from twine->cloudmesh-sys->cloudmesh-manual==4.0.0) (0.9.1)
+Requirement already satisfied: readme-renderer>=21.0 in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from twine->cloudmesh-sys->cloudmesh-manual==4.0.0) (24.0)
+Requirement already satisfied: MarkupSafe>=0.23 in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from Jinja2>=2.3->sphinx->sphinx_rtd_theme->cloudmesh-manual==4.0.0) (1.0)
+Requirement already satisfied: pytz>=0a in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from babel!=2.0,>=1.3->sphinx->sphinx_rtd_theme->cloudmesh-manual==4.0.0) (2018.5)
+Requirement already satisfied: pyparsing>=2.0.2 in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from packaging->sphinx->sphinx_rtd_theme->cloudmesh-manual==4.0.0) (2.2.0)
+Requirement already satisfied: bleach>=2.1.0 in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from readme-renderer>=21.0->twine->cloudmesh-sys->cloudmesh-manual==4.0.0) (2.1.4)
+Requirement already satisfied: html5lib!=1.0b1,!=1.0b2,!=1.0b3,!=1.0b4,!=1.0b5,!=1.0b6,!=1.0b7,!=1.0b8,>=0.99999999pre in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from bleach>=2.1.0->readme-renderer>=21.0->twine->cloudmesh-sys->cloudmesh-manual==4.0.0) (1.0.1)
+Requirement already satisfied: webencodings in /Users/shreyansjain/anaconda3/lib/python3.7/site-packages (from html5lib!=1.0b1,!=1.0b2,!=1.0b3,!=1.0b4,!=1.0b5,!=1.0b6,!=1.0b7,!=1.0b8,>=0.99999999pre->bleach>=2.1.0->readme-renderer>=21.0->twine->cloudmesh-sys->cloudmesh-manual==4.0.0) (0.5.1)
+Installing collected packages: cloudmesh-manual
+  Found existing installation: cloudmesh-manual 4.0.0
+    Uninstalling cloudmesh-manual-4.0.0:
+ERROR: Could not install packages due to an EnvironmentError: [Errno 13] Permission denied: '/Users/shreyansjain/anaconda3/lib/python3.7/site-packages/easy-install.pth'
+Consider using the `--user` option or check the permissions.
+
+(base) Shreyanss-MacBook-Pro:cm shreyansjain$ 
