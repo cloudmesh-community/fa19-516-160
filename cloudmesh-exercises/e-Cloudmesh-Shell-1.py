@@ -1,15 +1,16 @@
 # fa19-516-160
-# E.Cloudmesh.Common.5
+# E.Cloudmesh.Shell.1
 # Task :  Install cmd5 and the command cms on your computer.
 
 from cloudmesh.common.Shell import Shell
-cms = Shell.execute('cms')
-print(cms)
+cms_test = Shell.execute('cms')
+print(cms_test)
 
 
-#Code reference Introduction to python : Gregor von Laszewski.: section 6.6
 
+#Code reference Introduction to python : Gregor von Laszewski.: section 6.6, 6.7
 
+#Output on my computer (MAC)
 #(ENV3) Shreyanss-MacBook-Pro:cm shreyansjain$ cms help
 
 #Documented commands (type help <topic>):

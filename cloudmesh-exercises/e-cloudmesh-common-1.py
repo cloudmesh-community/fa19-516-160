@@ -7,14 +7,14 @@ from cloudmesh.common.variables import Variables
 from cloudmesh.common.console import Console
 
 # Check types of CM logs messages
-msg = "This is my test message"
+tstmsg = "This is my test message"
 
-Console.ok(msg) # prints a green message
-Console.error(msg) # prints a red message proceeded with ERROR
-Console.msg(msg) # prints a regular black message
+Console.ok(tstmsg) # prints a green message
+Console.error(tstmsg) # prints a red message proceeded with ERROR
+Console.msg(tstmsg) # prints a regular black message
 
 # Error message traceback in the output
-Console.error(msg, prefix=True, traceflag=True)
+Console.error(tstmsg, prefix=True, traceflag=True)
 
 # ---------- # ---------------#
 
@@ -44,3 +44,5 @@ m = { "key1": "value1" }
 VERBOSE(m)
 
 #---------------------------#
+
+

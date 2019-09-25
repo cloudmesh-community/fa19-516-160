@@ -4,7 +4,7 @@
 
 from cloudmesh.common.StopWatch import StopWatch # import StopWatch
 from time import sleep
-
+import os
 
 # Start timer
 StopWatch.start("calculation_sw")
@@ -22,7 +22,7 @@ print(sum)
 StopWatch.stop("calculation_sw")
 
 # Print results
-print (StopWatch.get("calculation_sw"))
+print(StopWatch.get("calculation_sw"))
 
 
 
