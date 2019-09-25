@@ -1,11 +1,12 @@
-# Cloudmesh Data Transfer service
+# Cloudmesh Data Transfer Service (Azure blob to and from Google cloud)
 
-Shreyans Jain
+Shreyans Jain, [fa19-516-160](https://github.com/cloudmesh-community/fa19-516-160/blob/master/project/report.md)  
+
 
 ## Abstract
 
 TBD
-* Azure to Google cloud Cloudmesh Storage Provider for Virtual Directories: see cloudmesh-storage to start. develop OpenAPI REST services for it
+* Azure blob to Google cloud and vise versa Cloudmesh Storage Provider for Virtual Directories: see cloudmesh-storage to start. develop OpenAPI REST services for it
 * Py Test
   
 
