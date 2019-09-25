@@ -1,4 +1,5 @@
-# Cloudmesh Data Transfer Service (Azure blob to and from Google cloud)
+# Azure blob to / from Google cloud Storage Service	(Cloudmesh Data Transfer Service)
+
 
 Shreyans Jain, [fa19-516-160](https://github.com/cloudmesh-community/fa19-516-160/blob/master/project/report.md)  
 
