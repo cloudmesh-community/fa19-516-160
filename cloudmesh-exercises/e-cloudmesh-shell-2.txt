@@ -1,0 +1,133 @@
+# fa19-516-160
+# E.Cloudmesh.Shell.5
+# Task : Write a new command with your firstname as the command name.
+
+----------------
+(ENV3) Shreyanss-MacBook-Pro:~ shreyansjain$ cd desktop/cm
+(ENV3) Shreyanss-MacBook-Pro:cm shreyansjain$ ls
+ChillD.png cloudmesh-cmd5 cloudmesh-manual
+FBNC.png cloudmesh-common cloudmesh-sys
+GoogleSE.png cloudmesh-configuration fa19-516-160
+cloudmesh-cloud cloudmesh-inventory venv
+(ENV3) Shreyanss-MacBook-Pro:cm shreyansjain$ cms sys command generate shreyans
+{'Command': 'Shreyans', 'command': 'shreyans', 'package': 'cloudmesh-shreyans'}
+Cloning into 'cloudmesh-bar'...
+remote: Enumerating objects: 284, done.
+remote: Total 284 (delta 0), reused 0 (delta 0), pack-reused 284
+Receiving objects: 100% (284/284), 35.47 KiB | 1008.00 KiB/s, done.
+Resolving deltas: 100% (119/119), done.
+
+(ENV3) Shreyanss-MacBook-Pro:cm shreyansjain$ ls
+ChillD.png cloudmesh-cmd5 cloudmesh-manual venv
+FBNC.png cloudmesh-common cloudmesh-shreyans
+GoogleSE.png cloudmesh-configuration cloudmesh-sys
+cloudmesh-cloud cloudmesh-inventory fa19-516-160
+
+(ENV3) Shreyanss-MacBook-Pro:cm shreyansjain$ cd cloudmesh-shreyans
+(ENV3) Shreyanss-MacBook-Pro:cloudmesh-shreyans shreyansjain$ ls
+LICENSE				build				requirements-dev.txt
+Makefile			cloudmesh			requirements.txt
+README.md			cloudmesh_shreyans.egg-info	setup.cfg
+VERSION				dist				setup.py
+(ENV3) Shreyanss-MacBook-Pro:cloudmesh-shreyans shreyansjain$ pwd
+/Users/shreyansjain/desktop/cm/cloudmesh-shreyans
+(ENV3) Shreyanss-MacBook-Pro:cloudmesh-shreyans shreyansjain$ python setup.py install
+
+running install
+running bdist_egg
+running egg_info
+creating cloudmesh_shreyans.egg-info
+writing cloudmesh_shreyans.egg-info/PKG-INFO
+writing dependency_links to cloudmesh_shreyans.egg-info/dependency_links.txt
+writing namespace_packages to cloudmesh_shreyans.egg-info/namespace_packages.txt
+writing requirements to cloudmesh_shreyans.egg-info/requires.txt
+writing top-level names to cloudmesh_shreyans.egg-info/top_level.txt
+writing manifest file 'cloudmesh_shreyans.egg-info/SOURCES.txt'
+reading manifest file 'cloudmesh_shreyans.egg-info/SOURCES.txt'
+writing manifest file 'cloudmesh_shreyans.egg-info/SOURCES.txt'
+installing library code to build/bdist.macosx-10.9-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/cloudmesh
+copying cloudmesh/__init__.py -> build/lib/cloudmesh
+creating build/lib/cloudmesh/plugin
+copying cloudmesh/plugin/__init__.py -> build/lib/cloudmesh/plugin
+copying cloudmesh/plugin/foobar.py -> build/lib/cloudmesh/plugin
+creating build/lib/cloudmesh/shreyans
+copying cloudmesh/shreyans/__init__.py -> build/lib/cloudmesh/shreyans
+copying cloudmesh/shreyans/__version__.py -> build/lib/cloudmesh/shreyans
+creating build/lib/cloudmesh/shreyans/api
+copying cloudmesh/shreyans/api/__init__.py -> build/lib/cloudmesh/shreyans/api
+copying cloudmesh/shreyans/api/manager.py -> build/lib/cloudmesh/shreyans/api
+creating build/lib/cloudmesh/shreyans/command
+copying cloudmesh/shreyans/command/shreyans.py -> build/lib/cloudmesh/shreyans/command
+copying cloudmesh/shreyans/command/__init__.py -> build/lib/cloudmesh/shreyans/command
+creating build/bdist.macosx-10.9-x86_64
+creating build/bdist.macosx-10.9-x86_64/egg
+creating build/bdist.macosx-10.9-x86_64/egg/cloudmesh
+creating build/bdist.macosx-10.9-x86_64/egg/cloudmesh/plugin
+copying build/lib/cloudmesh/plugin/__init__.py -> build/bdist.macosx-10.9-x86_64/egg/cloudmesh/plugin
+copying build/lib/cloudmesh/plugin/foobar.py -> build/bdist.macosx-10.9-x86_64/egg/cloudmesh/plugin
+copying build/lib/cloudmesh/__init__.py -> build/bdist.macosx-10.9-x86_64/egg/cloudmesh
+creating build/bdist.macosx-10.9-x86_64/egg/cloudmesh/shreyans
+copying build/lib/cloudmesh/shreyans/__init__.py -> build/bdist.macosx-10.9-x86_64/egg/cloudmesh/shreyans
+copying build/lib/cloudmesh/shreyans/__version__.py -> build/bdist.macosx-10.9-x86_64/egg/cloudmesh/shreyans
+creating build/bdist.macosx-10.9-x86_64/egg/cloudmesh/shreyans/api
+copying build/lib/cloudmesh/shreyans/api/__init__.py -> build/bdist.macosx-10.9-x86_64/egg/cloudmesh/shreyans/api
+copying build/lib/cloudmesh/shreyans/api/manager.py -> build/bdist.macosx-10.9-x86_64/egg/cloudmesh/shreyans/api
+creating build/bdist.macosx-10.9-x86_64/egg/cloudmesh/shreyans/command
+copying build/lib/cloudmesh/shreyans/command/shreyans.py -> build/bdist.macosx-10.9-x86_64/egg/cloudmesh/shreyans/command
+copying build/lib/cloudmesh/shreyans/command/__init__.py -> build/bdist.macosx-10.9-x86_64/egg/cloudmesh/shreyans/command
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/cloudmesh/plugin/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/cloudmesh/plugin/foobar.py to foobar.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/cloudmesh/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/cloudmesh/shreyans/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/cloudmesh/shreyans/__version__.py to __version__.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/cloudmesh/shreyans/api/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/cloudmesh/shreyans/api/manager.py to manager.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/cloudmesh/shreyans/command/shreyans.py to shreyans.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/cloudmesh/shreyans/command/__init__.py to __init__.cpython-37.pyc
+creating build/bdist.macosx-10.9-x86_64/egg/EGG-INFO
+copying cloudmesh_shreyans.egg-info/PKG-INFO -> build/bdist.macosx-10.9-x86_64/egg/EGG-INFO
+copying cloudmesh_shreyans.egg-info/SOURCES.txt -> build/bdist.macosx-10.9-x86_64/egg/EGG-INFO
+copying cloudmesh_shreyans.egg-info/dependency_links.txt -> build/bdist.macosx-10.9-x86_64/egg/EGG-INFO
+copying cloudmesh_shreyans.egg-info/namespace_packages.txt -> build/bdist.macosx-10.9-x86_64/egg/EGG-INFO
+copying cloudmesh_shreyans.egg-info/not-zip-safe -> build/bdist.macosx-10.9-x86_64/egg/EGG-INFO
+copying cloudmesh_shreyans.egg-info/requires.txt -> build/bdist.macosx-10.9-x86_64/egg/EGG-INFO
+copying cloudmesh_shreyans.egg-info/top_level.txt -> build/bdist.macosx-10.9-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/cloudmesh_shreyans-4.1.3-py3.7.egg' and adding 'build/bdist.macosx-10.9-x86_64/egg' to it
+removing 'build/bdist.macosx-10.9-x86_64/egg' (and everything under it)
+Processing cloudmesh_shreyans-4.1.3-py3.7.egg
+creating /anaconda3/envs/ENV3/lib/python3.7/site-packages/cloudmesh_shreyans-4.1.3-py3.7.egg
+Extracting cloudmesh_shreyans-4.1.3-py3.7.egg to /anaconda3/envs/ENV3/lib/python3.7/site-packages
+Adding cloudmesh-shreyans 4.1.3 to easy-install.pth file
+
+Installed /anaconda3/envs/ENV3/lib/python3.7/site-packages/cloudmesh_shreyans-4.1.3-py3.7.egg
+Processing dependencies for cloudmesh-shreyans==4.1.3
+Searching for Pygments==2.4.2
+Best match: Pygments 2.4.2
+Adding Pygments 2.4.2 to easy-install.pth file
+Installing pygmentize script to //anaconda3/envs/ENV3/bin
+
+Using /anaconda3/envs/ENV3/lib/python3.7/site-packages
+Searching for psutil==5.6.3
+Best match: psutil 5.6.3
+Adding psutil 5.6.3 to easy-install.pth file
+
+Using /anaconda3/envs/ENV3/lib/python3.7/site-packages
+Finished processing dependencies for cloudmesh-shreyans==4.1.3
+
+-----------------------
+
+(ENV3) Shreyanss-MacBook-Pro:cloudmesh-shreyans shreyansjain$ cms help
+
+Documented commands (type help <topic>):
+========================================
+EOF          clear     echo  man     q     shell     stopwatch  version
+banner       commands  help  pause   quit  shreyans  sys
+  default   info  plugin  set   sleep     var
+
+
