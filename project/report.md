@@ -7,7 +7,7 @@ Shreyans Jain, [fa19-516-160](https://github.com/cloudmesh-community/fa19-516-16
 ## Abstract
 
 TBD
-* Azure blob to Google cloud and vise versa Cloudmesh Storage Provider for Virtual Directories: see cloudmesh-storage to start. develop OpenAPI REST services for it
+* Azure blob to Google cloud storage and vise versa Cloudmesh Storage Provider for Virtual Directories: see cloudmesh-storage to start. develop OpenAPI REST services for it
 * Py Test
   
 
@@ -31,6 +31,8 @@ TBD
 * cloudmesh storage
 * OpenAPI 3.0.2
 * REST
+* Azure blob storage
+* Google Cloud Storage
 
 ## Usage  
 
@@ -82,6 +84,7 @@ TBD
 ## Benchmarks
 
 TBD - Benchmark report to be created
+* Benchmarks of what has been developed leveraging cloudmesh convenient stopwatch.
 
 ## Testing
 
