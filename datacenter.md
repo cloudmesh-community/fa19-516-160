@@ -35,10 +35,14 @@ second  data center on its North Carolina campus.
 *  <http://carbonfootprint.c2es.org/>
 
 ## E.Datacenter.4
-   ### EQUINIX GREEN INITIATIVES
-   Equinix was founded in 1998 with the goal to become a leader in data centers, they pioneer in green data centers
-   They constantly work on their green technology. They always work on design power usage effectiveness (PUE).
-   Following are few examples of site-specific solutions  incorporated by them:
+
+### EQUINIX GREEN INITIATIVES
+
+Equinix was founded in 1998 with the goal to become a leader in data centers, they pioneer in green data centers
+
+They constantly work on their green technology. They always work on design power usage effectiveness (PUE).
+
+Following are few examples of site-specific solutions  incorporated by them:
    
    * Rooftop solar panels
    * Deep Lake Water Cooling (DLWC)
@@ -46,16 +50,20 @@ second  data center on its North Carolina campus.
    * Water-side economizers
    And more.
     
-    SG3 (Singapore), one of newest sites, runs on solar energy power
+SG3 (Singapore), one of newest sites, runs on solar energy power
     
-    
+:o2: filenames must not have spaces
+
 ![Equinix Data Center SG3](images/Equinix%20Data%20Center%20SG3.png)    
+
 ## Here is the reference for more details :
+
 *   <https://www.equinix.com/www/resources/infopapers/Green_Data_Center_Brochure_US_EN.pdf>
 *   <https://www.equinix.com/locations/asia-colocation/singapore-colocation/singapore-data-center/sg3/>
 
    
 ## E.Datacenter.5
+
 * Largest Solar Farms ever Built for Google to Power Its Southeast Data Centers
 Two solar projects in Tennessee and Alabama  will supply two data centers under construction with renewable energy (solar) most hours of the day.
 
@@ -66,6 +74,7 @@ Countries like Island are working towards using natural ways of colling data cen
 
 * China's Greenpeace:  Data Centers on Track to Use More Energy than All of Australia. Biggest data center under construction in  Guizhou Province of China.
 There is lot of push to use renewable source of energy part of program.
+
 ### References
 
 *  <https://www.datacenterknowledge.com/energy/largest-solar-farms-ever-built-google-power-its-southeast-data-centers>
@@ -78,7 +87,9 @@ There is lot of push to use renewable source of energy part of program.
 
 
 ## E.Datacenter.6
+
 ### The ChilledDoor 
+
 ( A Whole New Cooling Experience )
 
 The ChilledDoor® Rack Cooling System not only remove 100% of the heat from server rack, it is a way to change the dynamic of how data center is cooled.
@@ -90,24 +101,29 @@ Active rack cooling can redefine PUE and are ultra efficient, scalable and rack 
 ![ChilledDoor](images/ChillD.png)
 
 ### Reference
+
 *  <https://www.chilleddoor.com/>
 
 ## E.Datacenter.7
+
 Pretty much what we do in our daily life has some impact on our planet. There are so many ways human adds to carbon footprint. 
 Like wise large corporations adds to carbon footprint indirectly all that is driven by human (consumer) demand. When we look at the modern computing or data driven companies they seems to be very clean apparently these companies use large amount of energy.
 Typically energy used by their data centers. Every time we click a link to search, upload a picture or watch a video we use energy starting form network, electronic device and data centers.
 Article points to variety of ways we add to use of energy. 
 
 ### Reference
+
 *  <https://www.nature.com/articles/d41586-018-06610-y>
 
 ## E.Datacenter.8   
+
    Facebook, Instagram, WhatsApp suffer global outage started around 9:00 PDT on 13 March 2019 and continued to affect some services until 14 March 2019. This outage impacted enterprise accounts as well.
    This outage remained for around 14 hours.
    Facebook reported this is because of server configuration changes and impacted many users.
    These outages had also affected Facebook's ad-buying system, many brand marketers had tweeted to report issues. 
    
 ### References
+
 *  <https://www.datacenterdynamics.com/news/facebook-instagram-whatsapp-suffer-global-outage/>
 *  <https://downdetector.com/status/facebook/map/>
 
