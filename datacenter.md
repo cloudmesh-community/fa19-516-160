@@ -54,7 +54,7 @@ SG3 (Singapore), one of newest sites, runs on solar energy power
     
 :o2: filenames must not have spaces
 
-![Equinix Data Center SG3](images/Equinix%20Data%20Center%20SG3.png)    
+![Equinix Data Center SG3](images/EquinixDataCenterSG3.png)    
 
 ## Here is the reference for more details :
 

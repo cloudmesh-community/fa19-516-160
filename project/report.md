@@ -3,8 +3,7 @@
 
 Shreyans Jain, [fa19-516-160](https://github.com/cloudmesh-community/fa19-516-160/blob/master/project/report.md)  
 
-
-![Logo](/project/images/shrejain_fa19-516-160_project_logo.png)
+:o2: The logo was removed as we are not microsoft. Please remove this comment.
 
 ## Abstract
 
