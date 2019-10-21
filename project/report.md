@@ -25,7 +25,10 @@ Cloud technology evolves at a very fast rate. Due to which, policies and facilit
 Cloudmesh is a multicloud platform. With inclusion of data transfer service, a highly optimized and simple to use methos will be made available to cloudmesh users.   
 
 ## Architecture
-TBD
+
+:o2: This is not an architecture diagram. I know you said its a logo, but we do not realy need a logo
+
+![Architecture](images/shrejain_fa19-516-160_project_logo.png)
 
 ## Technology
 * Python
