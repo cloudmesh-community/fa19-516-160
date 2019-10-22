@@ -28,7 +28,7 @@ Cloudmesh is a multicloud platform. With inclusion of data transfer service, a h
 
 :o2: This is not an architecture diagram. I know you said its a logo, but we do not realy need a logo
 
-![Architecture](images/shrejain_fa19-516-160_project_logo.png)
+![Architecture](images/Architecture.png)
 
 ## Technology
 * Python
