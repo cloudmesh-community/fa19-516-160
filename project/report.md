@@ -3,7 +3,6 @@
 
 Shreyans Jain, [fa19-516-160](https://github.com/cloudmesh-community/fa19-516-160/blob/master/project/report.md)  
 
-:o2: The logo was removed as we are not microsoft. Please remove this comment.
 
 ## Abstract
 
@@ -26,7 +25,6 @@ Cloudmesh is a multicloud platform. With inclusion of data transfer service, a h
 
 ## Architecture
 
-:o2: This is not an architecture diagram. I know you said its a logo, but we do not realy need a logo
 
 ![Architecture](images/Architecture_v2.png)
 
