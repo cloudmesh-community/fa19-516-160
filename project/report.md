@@ -25,6 +25,7 @@ Cloudmesh is a multicloud platform. With inclusion of data transfer service, a h
 
 ## Architecture
 
+![Architecture](images/gregor-cloud-storage.png)
 
 ![Architecture](images/Architecture_v2.png)
 
