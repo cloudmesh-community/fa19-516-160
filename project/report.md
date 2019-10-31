@@ -93,6 +93,6 @@ TBD - Benchmark report to be created
 
 TBD - PyTest report to be created
 
-## References : 
+## References 
 * https://cloud.google.com/docs/compare/azure/
 * https://cloud.google.com/docs/compare/azure/storage
