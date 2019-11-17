@@ -17,7 +17,7 @@ class TransferCommand(PluginCommand):
         ::
 
           Usage:
-                transfer copy --source=azureblob:sourceObj --target=azure:targetObj [-r]
+                transfer copy --source=azureblob:sourceObj --target=gcpobject:targetObj [-r]
                 transfer list --target=azureblob:targetObj
                 transfer delete --target=gcpobject:targetObj
                 transfer status --id=transfer_id
@@ -28,7 +28,7 @@ class TransferCommand(PluginCommand):
           one Cloud Service Provider (CSP) to storage of other CSP.
           Current implementation is to transfer data between Azure blob
           storage and gcp object.
-          Google object/ Azure Blob storage credentials and container details will
+          GCP object/ Azure Blob storage credentials and container details will
           be fetched from storage section of "cloudmesh.yaml"
 
 
@@ -52,13 +52,13 @@ class TransferCommand(PluginCommand):
               --target=azure:targetObj    Specify target cloud and target object.
               -r                          Recursive transfer for folders.
           Description:
-              transfer copy --source=<aws:sourceObj> --target=<azure:targetObj> [-r]
+              transfer copy --source=<azureblob:sourceObj> --target=<gcpobject:targetObj> [-r]
                         Copy file/folder from source to target. Source/target CSPs
                         and name of the source/target objects to be provided.
                         Optional argument "-r" indicates recursive copy.
-              transfer list --target=aws:targetObj
+              transfer list --target=azureblob:targetObj
                         Enlists available files on target CSP at target object
-              transfer delete --target=aws:targetObj
+              transfer delete --target=azureblob:targetObj
                         Deletes target object from the target CSP.
               transfer status --id=<transfer_id>
                         Returns status of given transfer instance
@@ -66,7 +66,7 @@ class TransferCommand(PluginCommand):
                         Returns statistics of all transfer processes
           Examples:
               transfer copy --source=azureblob:sampleFileBlob.txt
-            .               --target=google:sampleFileObject.txt
+            .               --target=gcpobject:sampleFileObject.txt
 
         """
         print("EXECUTING: ")
