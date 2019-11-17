@@ -6,6 +6,7 @@ from cloudmesh.common.console import Console
 from cloudmesh.common.util import path_expand
 from pprint import pprint
 from cloudmesh.common.debug import VERBOSE
+from cloudmesh.shell.command import command, map_parameters
 
 class TransferCommand(PluginCommand):
 
@@ -16,19 +17,63 @@ class TransferCommand(PluginCommand):
         ::
 
           Usage:
+                transfer copy --source=azureblob:sourceObj --target=azure:targetObj [-r]
+                transfer list --target=azureblob:targetObj
+                transfer delete --target=gcpobject:targetObj
+                transfer status --id=transfer_id
+                transfer statistic
+
+          This command is part of Cloudmesh's multi-cloud storage service.
+          Command allows users to transfer files/directories from storage of
+          one Cloud Service Provider (CSP) to storage of other CSP.
+          Current implementation is to transfer data between Azure blob
+          storage and gcp object.
+          Google object/ Azure Blob storage credentials and container details will
+          be fetched from storage section of "cloudmesh.yaml"
+
+
                 transfer --file=FILE
                 transfer list
 
-          This command does some useful things.
 
           Arguments:
-              FILE   a file name
+                azureblob:sourceObj   Combination of cloud name and the source object name
+                sourceObj       Source object. Can be file or a directory.
+                gcpobject:targetObj Combination of cloud name and the target object name
+                targetObj       Target object. Can be file or a directory.
+                transfer_id     A unique id/name assigned by cloudmesh to each
+                                    transfer instance.
 
           Options:
               -f      specify the file
+              --id=transfer_id            Unique id/name of the transfer instance.
+              -h                          Help function.
+              --source=aws:sourceObj      Specify source cloud and source object.
+              --target=azure:targetObj    Specify target cloud and target object.
+              -r                          Recursive transfer for folders.
+          Description:
+              transfer copy --source=<aws:sourceObj> --target=<azure:targetObj> [-r]
+                        Copy file/folder from source to target. Source/target CSPs
+                        and name of the source/target objects to be provided.
+                        Optional argument "-r" indicates recursive copy.
+              transfer list --target=aws:targetObj
+                        Enlists available files on target CSP at target object
+              transfer delete --target=aws:targetObj
+                        Deletes target object from the target CSP.
+              transfer status --id=<transfer_id>
+                        Returns status of given transfer instance
+              transfer statistic
+                        Returns statistics of all transfer processes
+          Examples:
+              transfer copy --source=azureblob:sampleFileBlob.txt
+            .               --target=google:sampleFileObject.txt
 
         """
-        arguments.FILE = arguments['--file'] or None
+        print("EXECUTING: ")
+        map_parameters(arguments,
+                       "source",
+                       "target")
+        #arguments.FILE = arguments['--file'] or None
 
         VERBOSE(arguments)
 
