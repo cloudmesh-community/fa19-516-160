@@ -17,9 +17,9 @@ class TransferCommand(PluginCommand):
         ::
 
           Usage:
-                transfer copy --source=azureblob:sourceObj --target=gcpobject:targetObj [-r]
+                transfer copy --source=azureblob:sourceObj --target=gcpbucket:targetObj [-r]
                 transfer list --target=azureblob:targetObj
-                transfer delete --target=gcpobject:targetObj
+                transfer delete --target=gcpbucket:targetObj
                 transfer status --id=transfer_id
                 transfer statistic
 
@@ -39,7 +39,7 @@ class TransferCommand(PluginCommand):
           Arguments:
                 azureblob:sourceObj   Combination of cloud name and the source object name
                 sourceObj       Source object. Can be file or a directory.
-                gcpobject:targetObj Combination of cloud name and the target object name
+                gcpbucket:targetObj Combination of cloud name and the target object name
                 targetObj       Target object. Can be file or a directory.
                 transfer_id     A unique id/name assigned by cloudmesh to each
                                     transfer instance.
@@ -52,7 +52,7 @@ class TransferCommand(PluginCommand):
               --target=azure:targetObj    Specify target cloud and target object.
               -r                          Recursive transfer for folders.
           Description:
-              transfer copy --source=<azureblob:sourceObj> --target=<gcpobject:targetObj> [-r]
+              transfer copy --source=<azureblob:sourceObj> --target=<gcpbucket:targetObj> [-r]
                         Copy file/folder from source to target. Source/target CSPs
                         and name of the source/target objects to be provided.
                         Optional argument "-r" indicates recursive copy.
@@ -66,7 +66,7 @@ class TransferCommand(PluginCommand):
                         Returns statistics of all transfer processes
           Examples:
               transfer copy --source=azureblob:sampleFileBlob.txt
-            .               --target=gcpobject:sampleFileObject.txt
+            .               --target=gcpbucket:sampleFileObject.txt
 
         """
         print("EXECUTING: ")

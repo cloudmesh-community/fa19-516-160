@@ -152,10 +152,14 @@ class Provider(StorageNewABC):
         :return: list of lists containing objects from target location
         """
         if self.source_kind == "azureblob":
-            Console.error("This command should flow to AWS provider. Please "
+            Console.error("This command should flow to azure provider. Please "
                           "check.")
             return
         elif self.source_kind == "gcpbucket":
+            Console.error("This command should flow to gcp provider. Please "
+                          "check.")
+            return
+        elif self.source_kind == "awss3":
             Console.error("This command should flow to AWS provider. Please "
                           "check.")
             return
