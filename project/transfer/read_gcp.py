@@ -1,10 +1,13 @@
 from cloudmesh.configuration.Config import Config
 config = Config()
-box = config["cloudmesh.storage.box.cm"]
-print(box)
+gcp = config["cloudmesh.storage.gcp.cm"]
+print(gcp)
+
+gcpCredentials = config["cloudmesh.storage.gcp.credentials"]
+print(gcpCredentials)
 
 ##
-
+"""
     flow = flow_from_clientsecrets(filename, scope, message=message,          #Change this to use jason as oblect
                                    cache=cache, redirect_uri=redirect_uri,
                                    device_uri=device_uri)
@@ -12,7 +15,7 @@ print(box)
     return credentials
 
 
-"""
+
 
 import json
 with open('result.json', 'w') as fp:
