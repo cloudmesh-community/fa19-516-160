@@ -1,10 +1,17 @@
-# Azure blob to / from Google cloud Storage Service	(Cloudmesh Data Transfer Service)
+# Cloudmesh Data Transfer Between Local, Azure and Google Google cloud Storage Service	(Cloudmesh Data Transfer Service)
 
 
 Shreyans Jain, [fa19-516-160](https://github.com/cloudmesh-community/fa19-516-160/blob/master/project/report.md)  
 
 
+:o2: see the report.md file for others, they have links that you need to include 
+
+We cannot review your project without the links to your code and so on.
+
+
 ## Abstract
+
+:o2: 
 
 TBD
 * Azure blob to Google cloud storage and vise versa Cloudmesh Storage Provider for Virtual Directories: see cloudmesh-storage to start. develop OpenAPI REST services for it
