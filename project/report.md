@@ -8,6 +8,8 @@ Shreyans Jain, [fa19-516-160](https://github.com/cloudmesh-community/fa19-516-16
 
 We cannot review your project without the links to your code and so on.
 
+Special note:
+With the class progression project was changed to create google storage provider inside cloudmesh-google module .
 
 ## Abstract
 
