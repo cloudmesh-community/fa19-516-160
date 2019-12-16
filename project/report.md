@@ -9,7 +9,7 @@ Shreyans Jain, [fa19-516-160](https://github.com/cloudmesh-community/fa19-516-16
 We cannot review your project without the links to your code and so on.
 
 Special note:
-With the class progression project was changed to "google storage provider" inside new module cloudmesh-google .
+With the class progression my project was changed to "google storage provider" part of new CMS module cloudmesh-google .
 
 ## Abstract
 
