@@ -1,49 +1,57 @@
-# Cloudmesh Data Transfer Between Local, Azure and Google Google cloud Storage Service	(Cloudmesh Data Transfer Service)
 
-
+# Cloudmesh Google Storage Service
+Contributors:
 Shreyans Jain, [fa19-516-160](https://github.com/cloudmesh-community/fa19-516-160/blob/master/project/report.md)  
+Gregor von Laszewski
 
 
-:o2: see the report.md file for others, they have links that you need to
-include
+Code: https://github.com/cloudmesh/cloudmesh-google/tree/master/cloudmesh/google
 
-We cannot review your project without the links to your code and so on.
+* command code:https://github.com/cloudmesh/cloudmesh-google/blob/master/cloudmesh/google/command/google.py
+
+* Provider code:https://github.com/cloudmesh/cloudmesh-google/blob/master/cloudmesh/google/storage/Provider.py
+
+Manual: https://github.com/cloudmesh/cloudmesh-manual/blob/master/docs-source/source/accounts/google/account.md
+
+
+Open Issues:
+
+https://github.com/cloudmesh/cloudmesh-oracle/issues
+https://github.com/cloudmesh/cloudmesh-storage/issues
+
 
 Special note: With the class progression my project was changed to
-"google storage provider" part of new CMS module cloudmesh-google .
+"google storage provider" part of new CMS module cloudmesh-google, initial proposal was cloudmesh transfer.
 
 ## Abstract
+* Cloudmesh is a multicloud platform. With inclusion of storage
+service, a highly optimized and simple to use methos will be made
+available to cloudmesh users. Introduction of cloudmesh-goole will  
+enable users to perform various storage commands for google cloud storage.
 
-:o2: 
-
-TBD
-
-* Azure blob to Google cloud storage and vise versa Cloudmesh Storage
+* Local cloud to Google cloud storage and vise versa Cloudmesh Storage
   Provider for Virtual Directories: see cloudmesh-storage to start.
-  develop OpenAPI REST services for it
-* Py Test
+  develop OpenAPI REST services.
   
-
+ 
+ 
+# Cloudmesh Google cloud Storage Service	
 ## Objective
 
 Provide cloudmesh users an API and REST service to transfer files,
 directories from data storage of one cloud service provider to other
-cloud service provider. This packge will consider  Azure Blob storage to
-Google cloud for current implementation.
+cloud service provider. This packge will consider  google cloud storage 
+implementation.
 
 
 ## Motivation
 
 Cloud technology evolves at a very fast rate. Due to which, policies and
 facilities provided by cloud service providers change as well. There
-could be various practical scenarios in which users want to transfer the
-data currently stored in AWS S3 to Azure Blob. Such scenarios could be
-change in pricing policy or storage capacity rules of AWS S3 or Azure
-Blob.
+could be various practical scenarios in which users want to use local storage with 
+data currently stored in Google storage. Such scenarios could be
+get to download file, put to upload file, list or delete blob or object at google location.
 
-Cloudmesh is a multicloud platform. With inclusion of data transfer
-service, a highly optimized and simple to use methos will be made
-available to cloudmesh users.
 
 ## Architecture
 
@@ -56,13 +64,20 @@ available to cloudmesh users.
 * cloudmesh storage
 * OpenAPI 3.0.2
 * REST
-* Azure blob storage
 * Google Cloud Storage
 
-## Usage  
+## Usage storage command
+```
+Usage:
+     storage [--storage=SERVICE] create dir DIRECTORY
+     storage [--storage=SERVICE] get SOURCE DESTINATION [--recursive]
+     storage [--storage=SERVICE] put SOURCE DESTINATION [--recursive]
+     storage [--storage=SERVICE] list [SOURCE] [--recursive] [--output=OUTPUT]
+     storage [--storage=SERVICE] delete SOURCE
 
-:o2: Your manual page is not in 80 column format fix here and in code
-
+```
+## Usage transfer command
+Following transfer command is not implemented and is option for future development:
  
 ```
   Usage:
@@ -105,21 +120,30 @@ available to cloudmesh users.
       transfer --id="Dummy transfer" --data=dummy_file.txt --copy=True
 ```
 
-* REST service:
-TBD
 
 ## Benchmarks
 
-TBD - Benchmark report to be created
+Benchmark results can be found at folling link:
 
-* Benchmarks of what has been developed leveraging cloudmesh convenient
-* stopwatch.
+https://github.com/cloudmesh-community/fa19-516-160/blob/master/project/benchmark.md
 
 ## Testing
 
-TBD - PyTest report to be created
+Py tests can be found at following link:
+https://github.com/cloudmesh/cloudmesh-google/tree/master/tests
+
+## Acknowledgements
+
+A sincere thanks to Professor Gregor von Laszewski for his direction and contributions throughout the project. He helped correcting code bugs, providing solution to complex problems with code logic, as well as better documentation. During the couse of this project professor patiently guided and encouraged for improvements. Thanks to Mr. Niranda Perera for reviewing my project. Special thanks to my fellow project members.
+
 
 ## References 
 
-* <https://cloud.google.com/docs/compare/azure/>
-* <https://cloud.google.com/docs/compare/azure/storage>
+* https://github.com/cloudmesh/cloudmesh-google
+* https://cloud.google.com/products/storage/
+* https://myaccount.google.com/
+* https://support.google.com/accounts/answer/27441
+* https://cloud.google.com/docs/authentication
+* https://cloudmesh.github.io/cloudmesh-manual/accounts/google.html
+
+
