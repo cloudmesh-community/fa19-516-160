@@ -20,7 +20,8 @@ Manual: https://github.com/cloudmesh/cloudmesh-manual/blob/master/docs-source
 
 Open Issues:
 
-https://github.com/cloudmesh/cloudmesh-oracle/issues
+https://github.com/cloudmesh/cloudmesh-google/issues
+
 https://github.com/cloudmesh/cloudmesh-storage/issues
 
 
