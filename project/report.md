@@ -76,9 +76,9 @@ get to download file, put to upload file, list or delete blob or object at
 ```
 Usage:
      storage [--storage=SERVICE] create dir DIRECTORY
-     storage [--storage=SERVICE] get SOURCE DESTINATION [--recursive]
-     storage [--storage=SERVICE] put SOURCE DESTINATION [--recursive]
-     storage [--storage=SERVICE] list [SOURCE] [--recursive] [--output=OUTPUT]
+     storage [--storage=SERVICE] get SOURCE DESTINATION 
+     storage [--storage=SERVICE] put SOURCE DESTINATION 
+     storage [--storage=SERVICE] list [SOURCE] 
      storage [--storage=SERVICE] delete SOURCE
 
 ```
