@@ -1,17 +1,22 @@
 
-# Cloudmesh Google Storage Service
+# Cloudmesh-Google
+## Cloudmesh Google Storage Service
 Contributors:
-Shreyans Jain, [fa19-516-160](https://github.com/cloudmesh-community/fa19-516-160/blob/master/project/report.md)  
+Shreyans Jain, [fa19-516-160](https://github.com/cloudmesh-community/fa19-516
+-160/blob/master/project/report.md)   
 Gregor von Laszewski
 
 
 Code: https://github.com/cloudmesh/cloudmesh-google/tree/master/cloudmesh/google
 
-* command code:https://github.com/cloudmesh/cloudmesh-google/blob/master/cloudmesh/google/command/google.py
+* command code:https://github.com/cloudmesh/cloudmesh-google/blob/master
+/cloudmesh/google/command/google.py 
 
-* Provider code:https://github.com/cloudmesh/cloudmesh-google/blob/master/cloudmesh/google/storage/Provider.py
+* Provider code:https://github.com/cloudmesh/cloudmesh-google/blob/master
+/cloudmesh/google/storage/Provider.py 
 
-Manual: https://github.com/cloudmesh/cloudmesh-manual/blob/master/docs-source/source/accounts/google/account.md
+Manual: https://github.com/cloudmesh/cloudmesh-manual/blob/master/docs-source
+/source/accounts/google/account.md 
 
 
 Open Issues:
@@ -21,7 +26,8 @@ https://github.com/cloudmesh/cloudmesh-storage/issues
 
 
 Special note: With the class progression my project was changed to
-"google storage provider" part of new CMS module cloudmesh-google, initial proposal was cloudmesh transfer.
+"google storage provider" part of new CMS module cloudmesh-google, initial
+ proposal was cloudmesh transfer. 
 
 ## Abstract
 * Cloudmesh is a multicloud platform. With inclusion of storage
@@ -48,9 +54,10 @@ implementation.
 
 Cloud technology evolves at a very fast rate. Due to which, policies and
 facilities provided by cloud service providers change as well. There
-could be various practical scenarios in which users want to use local storage with 
-data currently stored in Google storage. Such scenarios could be
-get to download file, put to upload file, list or delete blob or object at google location.
+could be various practical scenarios in which users want to use local storage
+ with data currently stored in Google storage. Such scenarios could be
+get to download file, put to upload file, list or delete blob or object at
+ google location. 
 
 
 ## Architecture
@@ -77,7 +84,8 @@ Usage:
 
 ```
 ## Usage transfer command
-Following transfer command is not implemented and is option for future development:
+Following transfer command is not implemented and is option for future
+ development: 
  
 ```
   Usage:
@@ -86,29 +94,37 @@ Following transfer command is not implemented and is option for future developme
         transfer status --id=<transfer_id>
         transfer statistic
 
-  This command is part of CloudMesh's multicloud storage service. Command allows users to transfer
-  files/directories from storage of one Cloud Service Provider (CSP) to storage of other CSP.
-  Current implementation is to transfer data between Azure blob storage and AWS S3 bucket.
+  This command is part of CloudMesh's multicloud storage service. Command
+ allows users to transfer 
+  files/directories from storage of one Cloud Service Provider (CSP) to
+ storage of other CSP. 
+  Current implementation is to transfer data between Azure blob storage and
+ AWS S3 bucket. 
 
   Arguments:
       transfer_id   A unique id/name assigned by user to each transfer instance
       file_name     Name of the file/directory to be transferred
-      Boolean       True/False argument for --copy option. When False, data will be removed from source location
+      Boolean       True/False argument for --copy option. When False, data
+ will be removed from source location 
       ip_file       Input file used to configure 'transfer' command
 
   Options:
       --id=transfer_id        Specify a unique i/name to the transfer instance
       --data=file_name        Specify the file/directory name to be transferred
-      --copy=True|False       Specify is the data should be kept in source location after the transfer
-      --file=ip_file          Specify the file to be used for configuration of the transfer instance
+      --copy=True|False       Specify is the data should be kept in source
+ location after the transfer 
+      --file=ip_file          Specify the file to be used for configuration
+ of the transfer instance 
       -h                      Help function
 
   Description:
       transfer config [options..]
-            Configures source/destination and authentication details to be used by transfer command
+            Configures source/destination and authentication details to be
+ used by transfer command 
 
       transfer [options..]
-            Transfers file/directory from storage of one CSP to storage of another CSP
+            Transfers file/directory from storage of one CSP to storage of
+ another CSP 
 
       transfer status [options..]
             Returns status of given transfer instance
@@ -125,7 +141,8 @@ Following transfer command is not implemented and is option for future developme
 
 Benchmark results can be found at folling link:
 
-https://github.com/cloudmesh-community/fa19-516-160/blob/master/project/benchmark.md
+https://github.com/cloudmesh-community/fa19-516-160/blob/master/project
+/benchmark.md 
 
 ## Testing
 
@@ -134,7 +151,12 @@ https://github.com/cloudmesh/cloudmesh-google/tree/master/tests
 
 ## Acknowledgements
 
-A sincere thanks to Professor Gregor von Laszewski for his direction and contributions throughout the project. He helped correcting code bugs, providing solution to complex problems with code logic, as well as better documentation. During the couse of this project professor patiently guided and encouraged for improvements. Thanks to Mr. Niranda Perera for reviewing my project. Special thanks to my fellow project members.
+A sincere thanks to Professor Gregor von Laszewski for his direction and
+contributions throughout the project. He helped correcting code bugs, 
+providing solution to complex problems with code logic, as well as better
+ documentation. During the couse of this project professor patiently guided
+  and encouraged for improvements. Thanks to Mr. Niranda Perera for reviewing
+   my project. Special thanks to my fellow project members.    
 
 
 ## References 
