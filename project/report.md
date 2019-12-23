@@ -2,8 +2,7 @@
 # Cloudmesh-Google
 ## Cloudmesh Google Storage Service
 Contributors:
-Shreyans Jain, [fa19-516-160](https://github.com/cloudmesh-community/fa19-516
--160/blob/master/project/report.md)   
+Shreyans Jain, [fa19-516-160](https://github.com/cloudmesh-community/fa19-516-160/blob/master/project/report.md)   
 Gregor von Laszewski
 
 
