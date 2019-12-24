@@ -1,79 +1,61 @@
-
 # Cloudmesh-Google
+
 ## Cloudmesh Google Storage Service
-Contributors:
-Shreyans Jain, [fa19-516-160](https://github.com/cloudmesh-community/fa19-516-160/blob/master/project/report.md)   
-Gregor von Laszewski
+
+* Shreyans Jain, [fa19-516-160](https://github.com/cloudmesh-community/fa19-516-160/blob/master/project/report.md)   
+* Gregor von Laszewski
 
 
-Code: https://github.com/cloudmesh/cloudmesh-google/tree/master/cloudmesh/google
-
-* command code:https://github.com/cloudmesh/cloudmesh-google/blob/master
-/cloudmesh/google/command/google.py 
-
-* Provider code:https://github.com/cloudmesh/cloudmesh-google/blob/master
-/cloudmesh/google/storage/Provider.py 
-
-Manual: https://github.com/cloudmesh/cloudmesh-manual/blob/master/docs-source
-/source/accounts/google/account.md 
-
+* Code: <https://github.com/cloudmesh/cloudmesh-google/tree/master/cloudmesh/google>
+* Command: <https://github.com/cloudmesh/cloudmesh-google/blob/master/cloudmesh/google/command/google.py>
+* Provider: <https://github.com/cloudmesh/cloudmesh-google/blob/master/cloudmesh/google/storage/Provider.py> 
+* Google Account Manual: <https://github.com/cloudmesh/cloudmesh-manual/blob/master/docs-source/source/accounts/google/account.md>
 
 Open Issues:
 
-https://github.com/cloudmesh/cloudmesh-google/issues
-
-https://github.com/cloudmesh/cloudmesh-storage/issues
-
-
-Special note: With the class progression my project was changed to
-"google storage provider" part of new CMS module cloudmesh-google, initial
- proposal was cloudmesh transfer. 
+* <https://github.com/cloudmesh/cloudmesh-google/issues>
+* <https://github.com/cloudmesh/cloudmesh-storage/issues>
 
 ## Abstract
-* Cloudmesh is a multicloud platform. With inclusion of storage
+
+Cloudmesh is a multicloud platform. With inclusion of storage
 service, a highly optimized and simple to use methos will be made
 available to cloudmesh users. Introduction of cloudmesh-goole will  
 enable users to perform various storage commands for google cloud storage.
 
-* Local cloud to Google cloud storage and vise versa Cloudmesh Storage
-  Provider for Virtual Directories: see cloudmesh-storage to start.
-  develop OpenAPI REST services.
+We report on activities to integrate local filesystem to Google cloud
+storage and vise versa.
   
  
- 
-# Cloudmesh Google cloud Storage Service	
-## Objective
+## Cloudmesh Google Cloud Storage Service	
 
-Provide cloudmesh users an API and REST service to transfer files,
-directories from data storage of one cloud service provider to other
-cloud service provider. This packge will consider  google cloud storage 
-implementation.
+Cloud users need a way to move files between their computers and cloud
+storage. We provide cloudmesh users an API and REST service to transfer
+files, directories from data storage of one cloud service provider to
+other cloud service provider. To work towards this goal we restricted
+the activities to copying files between the local filesystem and the 
+google cloud storage.
 
+The architecture to achieve this are depicted in @fig:160-arch1 AND fig:160-arch2.
 
-## Motivation
+![Cloudmesh Storage Layered Architecture](images/gregor-cloud-storage.png){#fig:160-arch1}
 
-Cloud technology evolves at a very fast rate. Due to which, policies and
-facilities provided by cloud service providers change as well. There
-could be various practical scenarios in which users want to use local storage
- with data currently stored in Google storage. Such scenarios could be
-get to download file, put to upload file, list or delete blob or object at
- google location. 
+![CLoudmesh Integration of the Google Provider](images/Architecture_v2.png){#fig:160-arch2}
 
+This project use the following technologies
 
-## Architecture
-
-![Architecture](images/gregor-cloud-storage.png)
-
-![Architecture](images/Architecture_v2.png)
-
-## Technology
 * Python
 * cloudmesh storage
 * OpenAPI 3.0.2
 * REST
 * Google Cloud Storage
 
-## Usage storage command
+## Cloudmesh Storage Command
+
+As part of this project we have integrated the Google storage capacity
+into an existing cloudmesh storage command. The command provides the
+following functionality:
+
 ```
 Usage:
      storage [--storage=SERVICE] create dir DIRECTORY
@@ -83,10 +65,20 @@ Usage:
      storage [--storage=SERVICE] delete SOURCE
 
 ```
-## Usage transfer command
-Following transfer command is not implemented and is option for future
- development: 
+
+I
+## Cloudmesh Transfer Command
+
+In addition we identified that it is beneficial to have a transfer
+command. Our design is included, but is not implemented as part of this
+project. We realize the commmand is not as it shoudl be but provides a
+valuble starting poingt for discussion. Especially the availability of a
+prototype for managing cloudmesh commands in a que developed by von
+Laszewski is an important step towards implementing such a command.
+
  
+The rough prototype of the command is listed next.
+
 ```
   Usage:
         transfer config [--file=ip_file]
@@ -94,37 +86,40 @@ Following transfer command is not implemented and is option for future
         transfer status --id=<transfer_id>
         transfer statistic
 
-  This command is part of CloudMesh's multicloud storage service. Command
- allows users to transfer 
-  files/directories from storage of one Cloud Service Provider (CSP) to
- storage of other CSP. 
-  Current implementation is to transfer data between Azure blob storage and
- AWS S3 bucket. 
-
   Arguments:
-      transfer_id   A unique id/name assigned by user to each transfer instance
+      transfer_id   A unique id/name assigned by user to each transfer 
+                    instance
       file_name     Name of the file/directory to be transferred
-      Boolean       True/False argument for --copy option. When False, data
- will be removed from source location 
       ip_file       Input file used to configure 'transfer' command
 
   Options:
-      --id=transfer_id        Specify a unique i/name to the transfer instance
-      --data=file_name        Specify the file/directory name to be transferred
-      --copy=True|False       Specify is the data should be kept in source
- location after the transfer 
-      --file=ip_file          Specify the file to be used for configuration
+      --id=transfer_id        Specify a unique i/name to the transfer 
+                              instance
+      --data=file_name        Specify the file/directory name to be 
+                              transferred
+      --copy=True|False       Specify is the data should be kept in 
+                              source location after the transfer 
+      --file=ip_file          Specify the file to be used for 
+                              configuration
  of the transfer instance 
       -h                      Help function
 
   Description:
+  
+    This command is part of CloudMesh's multicloud storage service.
+    Command allows users to transfer  files/directories from storage of
+    one Cloud Service Provider (CSP) to storage of other CSP. Current
+    implementation is to transfer data between Azure blob storage and
+    AWS S3 bucket.
+
+
       transfer config [options..]
-            Configures source/destination and authentication details to be
- used by transfer command 
+            Configures source/destination and authentication details 
+            to be used by transfer command 
 
       transfer [options..]
-            Transfers file/directory from storage of one CSP to storage of
- another CSP 
+            Transfers file/directory from storage of one CSP to 
+            storage of another CSP 
 
       transfer status [options..]
             Returns status of given transfer instance
@@ -139,33 +134,27 @@ Following transfer command is not implemented and is option for future
 
 ## Benchmarks
 
-Benchmark results can be found at folling link:
+We use the following pytest
 
-https://github.com/cloudmesh-community/fa19-516-160/blob/master/project
-/benchmark.md 
+* <https://github.com/cloudmesh/cloudmesh-google/tree/master/tests>
 
-## Testing
+The Benchmark results can be found at folling link:
 
-Py tests can be found at following link:
-https://github.com/cloudmesh/cloudmesh-google/tree/master/tests
+* <https://github.com/cloudmesh-community/fa19-516-160/blob/master/project/benchmark.md>
 
 ## Acknowledgements
 
-A sincere thanks to Professor Gregor von Laszewski for his direction and
-contributions throughout the project. He helped correcting code bugs, 
-providing solution to complex problems with code logic, as well as better
- documentation. During the couse of this project professor patiently guided
-  and encouraged for improvements. Thanks to Mr. Niranda Perera for reviewing
-   my project. Special thanks to my fellow project members.    
-
+Dr. von Laszewski contributed significantly to thsi project while
+conductiong improvements to code, documentation, and debugging.
+ 
 
 ## References 
 
-* https://github.com/cloudmesh/cloudmesh-google
-* https://cloud.google.com/products/storage/
-* https://myaccount.google.com/
-* https://support.google.com/accounts/answer/27441
-* https://cloud.google.com/docs/authentication
-* https://cloudmesh.github.io/cloudmesh-manual/accounts/google.html
+* <https://github.com/cloudmesh/cloudmesh-google>
+* <https://cloud.google.com/products/storage/>
+* <https://myaccount.google.com/>
+* <https://support.google.com/accounts/answer/27441>
+* <https://cloud.google.com/docs/authentication>
+* <https://cloudmesh.github.io/cloudmesh-manual/accounts/google.html>
 
 
