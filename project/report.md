@@ -62,7 +62,6 @@ Usage:
 
 ```
 
-I
 ## Cloudmesh Transfer Command
 
 In addition, we identified that it is beneficial to have a transfer
@@ -155,12 +154,6 @@ The Benchmark results can be found at the following link:
 | benchmark_start_stop       | 0.0   | 2019-12-20 22:41:03 | google |
 +----------------------------+-------+---------------------+--------+
 ```
-
-## Acknowledgements
-
-Dr. von Laszewski contributed significantly to this project while
-conducting improvements to code, documentation, and debugging.
- 
 
 ## References 
 
