@@ -4,10 +4,10 @@
 * Gregor von Laszewski
 
 
-* Code: <https://github.com/cloudmesh/cloudmesh-google/tree/master/cloudmesh/google>
-* Command: <https://github.com/cloudmesh/cloudmesh-google/blob/master/cloudmesh/google/command/google.py>
-* Provider: <https://github.com/cloudmesh/cloudmesh-google/blob/master/cloudmesh/google/storage/Provider.py> 
-* Google Account Manual: <https://github.com/cloudmesh/cloudmesh-manual/blob/master/docs-source/source/accounts/google/account.md>
+* [Code](https://github.com/cloudmesh/cloudmesh-google/tree/master/cloudmesh/google)
+* [Command](https://github.com/cloudmesh/cloudmesh-google/blob/master/cloudmesh/google/command/google.py)
+* [Provider](https://github.com/cloudmesh/cloudmesh-google/blob/master/cloudmesh/google/storage/Provider.py)
+* [Google Account Manual](https://github.com/cloudmesh/cloudmesh-manual/blob/master/docs-source/source/accounts/google/account.md)
 
 Open Issues:
 
